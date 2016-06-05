@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>File Source for connector.php</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+											</head>
+		<body>
+						<h1>Source for file connector.php</h1>
+<p>Documentation is available at <a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---connector.php.html">connector.php</a></p>
+<div class="src-code">
+<div class="src-code"><ol><li><div class="src-line"><a name="a1"></a><span class="src-php">&lt;?php&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a2"></a><span class="src-comm">/*</span></div></li>
+<li><div class="src-line"><a name="a3"></a><span class="src-comm">&nbsp;*&nbsp;FCKeditor&nbsp;-&nbsp;The&nbsp;text&nbsp;editor&nbsp;for&nbsp;internet</span></div></li>
+<li><div class="src-line"><a name="a4"></a><span class="src-comm">&nbsp;*&nbsp;Copyright&nbsp;(C)&nbsp;2003-2005&nbsp;Frederico&nbsp;Caldeira&nbsp;Knabben</span></div></li>
+<li><div class="src-line"><a name="a5"></a><span class="src-comm">&nbsp;*&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a6"></a><span class="src-comm">&nbsp;*&nbsp;Licensed&nbsp;under&nbsp;the&nbsp;terms&nbsp;of&nbsp;the&nbsp;GNU&nbsp;Lesser&nbsp;General&nbsp;Public&nbsp;License:</span></div></li>
+<li><div class="src-line"><a name="a7"></a><span class="src-comm">&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://www.opensource.org/licenses/lgpl-license.php</span></div></li>
+<li><div class="src-line"><a name="a8"></a><span class="src-comm">&nbsp;*&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a9"></a><span class="src-comm">&nbsp;*&nbsp;For&nbsp;further&nbsp;information&nbsp;visit:</span></div></li>
+<li><div class="src-line"><a name="a10"></a><span class="src-comm">&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://www.fckeditor.net/</span></div></li>
+<li><div class="src-line"><a name="a11"></a><span class="src-comm">&nbsp;*&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a12"></a><span class="src-comm">&nbsp;*&nbsp;&quot;Support&nbsp;Open&nbsp;Source&nbsp;software.&nbsp;What&nbsp;about&nbsp;a&nbsp;donation&nbsp;today?&quot;</span></div></li>
+<li><div class="src-line"><a name="a13"></a><span class="src-comm">&nbsp;*&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a14"></a><span class="src-comm">&nbsp;*&nbsp;File&nbsp;Name:&nbsp;connector.php</span></div></li>
+<li><div class="src-line"><a name="a15"></a><span class="src-comm">&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;is&nbsp;the&nbsp;File&nbsp;Manager&nbsp;Connector&nbsp;for&nbsp;PHP.</span></div></li>
+<li><div class="src-line"><a name="a16"></a><span class="src-comm">&nbsp;*&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a17"></a><span class="src-comm">&nbsp;*&nbsp;File&nbsp;Authors:</span></div></li>
+<li><div class="src-line"><a name="a18"></a><span class="src-comm">&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frederico&nbsp;Caldeira&nbsp;Knabben&nbsp;(fredck@fckeditor.net)</span></div></li>
+<li><div class="src-line"><a name="a19"></a><span class="src-comm">&nbsp;*/</span></div></li>
+<li><div class="src-line"><a name="a20"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a21"></a><span class="src-inc">include</span><span class="src-sym">(</span><span class="src-str">'config.php'</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a22"></a><span class="src-inc">include</span><span class="src-sym">(</span><span class="src-str">'util.php'</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a23"></a><span class="src-inc">include</span><span class="src-sym">(</span><span class="src-str">'io.php'</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a24"></a><span class="src-inc">include</span><span class="src-sym">(</span><span class="src-str">'basexml.php'</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a25"></a><span class="src-inc">include</span><span class="src-sym">(</span><span class="src-str">'commands.php'</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a26"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a27"></a><span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-sym">!</span><span class="src-var">$Config</span><span class="src-sym">[</span><span class="src-str">'Enabled'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line"><a name="a28"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---basexml.php.html#functionSendError">SendError</a><span class="src-sym">(&nbsp;</span><span class="src-num">1</span><span class="src-sym">,&nbsp;</span><span class="src-str">'This&nbsp;connector&nbsp;is&nbsp;disabled.&nbsp;Please&nbsp;check&nbsp;the&nbsp;&quot;editor/filemanager/connectors/php/config.php&quot;&nbsp;file'&nbsp;</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a29"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a30"></a><span class="src-comm">//&nbsp;Get&nbsp;the&nbsp;&quot;UserFiles&quot;&nbsp;path.</span></div></li>
+<li><div class="src-line"><a name="a31"></a><span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesPath&quot;</span><span class="src-sym">]&nbsp;</span>=&nbsp;<span class="src-str">''&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a32"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a33"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a34"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a35"></a><span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span>isset<span class="src-sym">(&nbsp;</span><span class="src-var">$Config</span><span class="src-sym">[</span><span class="src-str">'UserFilesPath'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">)&nbsp;)</span></div></li>
+<li><div class="src-line"><a name="a36"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesPath&quot;</span><span class="src-sym">]&nbsp;</span>=&nbsp;<span class="src-var">$Config</span><span class="src-sym">[</span><span class="src-str">'UserFilesPath'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a37"></a><span class="src-key">else&nbsp;</span><span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span>isset<span class="src-sym">(&nbsp;</span><span class="src-var">$_GET</span><span class="src-sym">[</span><span class="src-str">'ServerPath'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">)&nbsp;)</span></div></li>
+<li><div class="src-line"><a name="a38"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesPath&quot;</span><span class="src-sym">]&nbsp;</span>=&nbsp;<span class="src-var">$_GET</span><span class="src-sym">[</span><span class="src-str">'ServerPath'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a39"></a><span class="src-key">else</span></div></li>
+<li><div class="src-line"><a name="a40"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesPath&quot;</span><span class="src-sym">]&nbsp;</span>=&nbsp;<span class="src-str">'/UserFiles/'</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a41"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a42"></a><span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-sym">!&nbsp;</span><a href="http://www.php.net/ereg">ereg</a><span class="src-sym">(&nbsp;</span><span class="src-str">'/$'</span><span class="src-sym">,&nbsp;</span><span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesPath&quot;</span><span class="src-sym">]&nbsp;</span><span class="src-sym">)&nbsp;)</span></div></li>
+<li><div class="src-line"><a name="a43"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesPath&quot;</span><span class="src-sym">]&nbsp;</span>.=&nbsp;<span class="src-str">'/'&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a44"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a45"></a><span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><a href="http://www.php.net/strlen">strlen</a><span class="src-sym">(&nbsp;</span><span class="src-var">$Config</span><span class="src-sym">[</span><span class="src-str">'UserFilesAbsolutePath'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">)&nbsp;</span>&gt;&nbsp;<span class="src-num">0&nbsp;</span><span class="src-sym">)&nbsp;</span></div></li>
+<li><div class="src-line"><a name="a46"></a><span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a47"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesDirectory&quot;</span><span class="src-sym">]&nbsp;</span>=&nbsp;<span class="src-var">$Config</span><span class="src-sym">[</span><span class="src-str">'UserFilesAbsolutePath'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a48"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a49"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-sym">!&nbsp;</span><a href="http://www.php.net/ereg">ereg</a><span class="src-sym">(&nbsp;</span><span class="src-str">'/$'</span><span class="src-sym">,&nbsp;</span><span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesDirectory&quot;</span><span class="src-sym">]&nbsp;</span><span class="src-sym">)&nbsp;)</span></div></li>
+<li><div class="src-line"><a name="a50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesDirectory&quot;</span><span class="src-sym">]&nbsp;</span>.=&nbsp;<span class="src-str">'/'&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a51"></a><span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a52"></a><span class="src-key">else</span></div></li>
+<li><div class="src-line"><a name="a53"></a><span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a54"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-comm">//&nbsp;Map&nbsp;the&nbsp;&quot;UserFiles&quot;&nbsp;path&nbsp;to&nbsp;a&nbsp;local&nbsp;directory.</span></div></li>
+<li><div class="src-line"><a name="a55"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesDirectory&quot;</span><span class="src-sym">]&nbsp;</span>=&nbsp;<a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---io.php.html#functionGetRootPath">GetRootPath</a><span class="src-sym">(</span><span class="src-sym">)&nbsp;</span>.&nbsp;<span class="src-var">$GLOBALS</span><span class="src-sym">[</span><span class="src-str">&quot;UserFilesPath&quot;</span><span class="src-sym">]&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a56"></a><span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a57"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a58"></a><a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---connector.php.html#functionDoResponse">DoResponse</a><span class="src-sym">(</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a59"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a60"></a><span class="src-key">function&nbsp;</span><a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---connector.php.html#functionDoResponse">DoResponse</a><span class="src-sym">(</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line"><a name="a61"></a><span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a62"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-sym">!</span>isset<span class="src-sym">(&nbsp;</span><span class="src-var">$_GET</span><span class="src-sym">[</span><span class="src-str">'Command'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">)&nbsp;</span>||&nbsp;<span class="src-sym">!</span>isset<span class="src-sym">(&nbsp;</span><span class="src-var">$_GET</span><span class="src-sym">[</span><span class="src-str">'Type'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">)&nbsp;</span>||&nbsp;<span class="src-sym">!</span>isset<span class="src-sym">(&nbsp;</span><span class="src-var">$_GET</span><span class="src-sym">[</span><span class="src-str">'CurrentFolder'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">)&nbsp;)</span></div></li>
+<li><div class="src-line"><a name="a63"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">return&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a64"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a65"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-comm">//&nbsp;Get&nbsp;the&nbsp;main&nbsp;request&nbsp;informaiton.</span></div></li>
+<li><div class="src-line"><a name="a66"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$sCommand&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>=&nbsp;<span class="src-var">$_GET</span><span class="src-sym">[</span><span class="src-str">'Command'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a67"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$sResourceType&nbsp;&nbsp;&nbsp;&nbsp;</span>=&nbsp;<span class="src-var">$_GET</span><span class="src-sym">[</span><span class="src-str">'Type'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a68"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$sCurrentFolder&nbsp;&nbsp;&nbsp;&nbsp;</span>=&nbsp;<span class="src-var">$_GET</span><span class="src-sym">[</span><span class="src-str">'CurrentFolder'</span><span class="src-sym">]&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a69"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a70"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-comm">//&nbsp;Check&nbsp;if&nbsp;it&nbsp;is&nbsp;an&nbsp;allowed&nbsp;type.</span></div></li>
+<li><div class="src-line"><a name="a71"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-sym">!</span><a href="http://www.php.net/in_array">in_array</a><span class="src-sym">(&nbsp;</span><span class="src-var">$sResourceType</span><span class="src-sym">,&nbsp;</span><span class="src-key">array</span><span class="src-sym">(</span><span class="src-str">'File'</span><span class="src-sym">,</span><span class="src-str">'Image'</span><span class="src-sym">,</span><span class="src-str">'Flash'</span><span class="src-sym">,</span><span class="src-str">'Media'</span><span class="src-sym">)&nbsp;)&nbsp;)</span></div></li>
+<li><div class="src-line"><a name="a72"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">return&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a73"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a74"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-comm">//&nbsp;Check&nbsp;the&nbsp;current&nbsp;folder&nbsp;syntax&nbsp;(must&nbsp;begin&nbsp;and&nbsp;start&nbsp;with&nbsp;a&nbsp;slash).</span></div></li>
+<li><div class="src-line"><a name="a75"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-sym">!&nbsp;</span><a href="http://www.php.net/ereg">ereg</a><span class="src-sym">(&nbsp;</span><span class="src-str">'/$'</span><span class="src-sym">,&nbsp;</span><span class="src-var">$sCurrentFolder&nbsp;</span><span class="src-sym">)&nbsp;)&nbsp;</span><span class="src-var">$sCurrentFolder&nbsp;</span>.=&nbsp;<span class="src-str">'/'&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a76"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><a href="http://www.php.net/strpos">strpos</a><span class="src-sym">(&nbsp;</span><span class="src-var">$sCurrentFolder</span><span class="src-sym">,&nbsp;</span><span class="src-str">'/'&nbsp;</span><span class="src-sym">)&nbsp;</span>!==&nbsp;<span class="src-num">0&nbsp;</span><span class="src-sym">)&nbsp;</span><span class="src-var">$sCurrentFolder&nbsp;</span>=&nbsp;<span class="src-str">'/'&nbsp;</span>.&nbsp;<span class="src-var">$sCurrentFolder&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a77"></a>&nbsp;&nbsp;&nbsp;&nbsp;</div></li>
+<li><div class="src-line"><a name="a78"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-comm">//&nbsp;Check&nbsp;for&nbsp;invalid&nbsp;folder&nbsp;paths&nbsp;(..)</span></div></li>
+<li><div class="src-line"><a name="a79"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><a href="http://www.php.net/strpos">strpos</a><span class="src-sym">(&nbsp;</span><span class="src-var">$sCurrentFolder</span><span class="src-sym">,&nbsp;</span><span class="src-str">'..'&nbsp;</span><span class="src-sym">)&nbsp;)</span></div></li>
+<li><div class="src-line"><a name="a80"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---basexml.php.html#functionSendError">SendError</a><span class="src-sym">(&nbsp;</span><span class="src-num">102</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;&quot;&nbsp;</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a81"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a82"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-comm">//&nbsp;File&nbsp;Upload&nbsp;doesn't&nbsp;have&nbsp;to&nbsp;Return&nbsp;XML,&nbsp;so&nbsp;it&nbsp;must&nbsp;be&nbsp;intercepted&nbsp;before&nbsp;anything.</span></div></li>
+<li><div class="src-line"><a name="a83"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">if&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-var">$sCommand&nbsp;</span>==&nbsp;<span class="src-str">'FileUpload'&nbsp;</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line"><a name="a84"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a85"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---commands.php.html#functionFileUpload">FileUpload</a><span class="src-sym">(&nbsp;</span><span class="src-var">$sResourceType</span><span class="src-sym">,&nbsp;</span><span class="src-var">$sCurrentFolder&nbsp;</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a86"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">return&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a87"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a88"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a89"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---basexml.php.html#functionCreateXmlHeader">CreateXmlHeader</a><span class="src-sym">(&nbsp;</span><span class="src-var">$sCommand</span><span class="src-sym">,&nbsp;</span><span class="src-var">$sResourceType</span><span class="src-sym">,&nbsp;</span><span class="src-var">$sCurrentFolder&nbsp;</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a90"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a91"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-comm">//&nbsp;Execute&nbsp;the&nbsp;required&nbsp;command.</span></div></li>
+<li><div class="src-line"><a name="a92"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">switch&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-var">$sCommand&nbsp;</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line"><a name="a93"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">{</span></div></li>
+<li><div class="src-line"><a name="a94"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">case&nbsp;</span><span class="src-str">'GetFolders'&nbsp;</span>:</div></li>
+<li><div class="src-line"><a name="a95"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---commands.php.html#functionGetFolders">GetFolders</a><span class="src-sym">(&nbsp;</span><span class="src-var">$sResourceType</span><span class="src-sym">,&nbsp;</span><span class="src-var">$sCurrentFolder&nbsp;</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a96"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">break&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a97"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">case&nbsp;</span><span class="src-str">'GetFoldersAndFiles'&nbsp;</span>:</div></li>
+<li><div class="src-line"><a name="a98"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---commands.php.html#functionGetFoldersAndFiles">GetFoldersAndFiles</a><span class="src-sym">(&nbsp;</span><span class="src-var">$sResourceType</span><span class="src-sym">,&nbsp;</span><span class="src-var">$sCurrentFolder&nbsp;</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a99"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">break&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a100"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">case&nbsp;</span><span class="src-str">'CreateFolder'&nbsp;</span>:</div></li>
+<li><div class="src-line"><a name="a101"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---commands.php.html#functionCreateFolder">CreateFolder</a><span class="src-sym">(&nbsp;</span><span class="src-var">$sResourceType</span><span class="src-sym">,&nbsp;</span><span class="src-var">$sCurrentFolder&nbsp;</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a102"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">break&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a103"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a104"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a105"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="../default/_www---javascript---tiny_mce---filemanager---connectors---php---basexml.php.html#functionCreateXmlFooter">CreateXmlFooter</a><span class="src-sym">(</span><span class="src-sym">)&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a106"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a107"></a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">exit&nbsp;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a108"></a><span class="src-sym">}</span></div></li>
+<li><div class="src-line"><a name="a109"></a><span class="src-php">?&gt;</span></div></li>
+</ol></div>
+</div>
+	<p class="notes" id="credit">
+		Documentation generated on Thu, 12 Mar 2009 09:19:18 -0400 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</body>
+</html>

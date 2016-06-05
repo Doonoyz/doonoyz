@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>File Source for sitemap.php</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+											</head>
+		<body>
+						<h1>Source for file sitemap.php</h1>
+<p>Documentation is available at <a href="../default/_cron---sitemap.php.html">sitemap.php</a></p>
+<div class="src-code">
+<div class="src-code"><ol><li><div class="src-line"><a name="a1"></a><span class="src-php">&lt;?php</span></div></li>
+<li><div class="src-line"><a name="a2"></a><a href="http://www.php.net/define">define</a>&nbsp;<span class="src-sym">(&nbsp;</span><span class="src-str">'ROOT_DIR'</span><span class="src-sym">,&nbsp;</span><span class="src-id">realpath&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-id">dirname&nbsp;</span><span class="src-sym">(&nbsp;</span>__FILE__&nbsp;<span class="src-sym">)&nbsp;)&nbsp;</span>.&nbsp;<span class="src-str">'/../'&nbsp;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a3"></a><a href="http://www.php.net/define">define</a>&nbsp;<span class="src-sym">(&nbsp;</span><span class="src-str">'ENVIRONMENT'</span><span class="src-sym">,&nbsp;</span><span class="src-str">'dev'&nbsp;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a4"></a><a href="http://www.php.net/define">define</a>&nbsp;<span class="src-sym">(&nbsp;</span><span class="src-str">'ROBOT_PROCESS'</span><span class="src-sym">,&nbsp;</span><span class="src-id">true&nbsp;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a5"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a6"></a><span class="src-inc">include&nbsp;</span><span class="src-sym">(</span><span class="src-id">ROOT_DIR&nbsp;</span>.&nbsp;<span class="src-id">DIRECTORY_SEPARATOR&nbsp;</span>.&nbsp;<span class="src-str">'application'&nbsp;</span>.&nbsp;<span class="src-id">DIRECTORY_SEPARATOR&nbsp;</span>.&nbsp;<span class="src-str">'config.php'</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a7"></a>&nbsp;</div></li>
+<li><div class="src-line"><a name="a8"></a><span class="src-var">$robot&nbsp;</span>=&nbsp;<span class="src-key">new&nbsp;</span><span class="src-id"><a href="../Doonoyz/library-robot/Twinmusic_Robot_Sitemap.html">Twinmusic_Robot_Sitemap</a>&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line"><a name="a9"></a><span class="src-var">$robot</span><span class="src-sym">-&gt;</span><span class="src-id">launch&nbsp;</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+</div>
+	<p class="notes" id="credit">
+		Documentation generated on Thu, 12 Mar 2009 09:19:46 -0400 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</body>
+</html>

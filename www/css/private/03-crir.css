@@ -1,0 +1,50 @@
+/* Checkboxes */
+label.checkbox_checked {
+	background: transparent url(/css/crir/tick.png) no-repeat;	
+	display: inline;
+	margin: 10px 0;
+	padding-left: 25px;
+	padding-bottom: 3px;
+}
+label.checkbox_unchecked  {
+	background: transparent url(/css/crir/cross.png) no-repeat;	
+	display: inline;
+	margin: 10px 0;
+	padding-left: 25px;
+	padding-bottom: 3px;
+}
+
+/* Radio Buttons */
+label.radio_checked {
+	background: transparent url(/css/crir/bullet_green.png) no-repeat;	
+	display: inline;
+	margin: 10px 0;
+	padding-left: 25px;
+	padding-bottom: 3px;
+}
+label.radio_unchecked  {
+	background: transparent url(/css/crir/bullet_white.png) no-repeat;	
+	display: inline;
+	margin: 10px 0;
+	padding-left: 25px;
+	padding-bottom: 3px;
+}
+
+
+/* Hover State */
+label:hover{
+	color: #575B60;
+}
+
+label.highlighted {
+	border: 1px solid #333;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* STOP EDITTING - DO NOT CHANGE OR REMOVE        */
+.crirHidden {
+	position: absolute;
+	left: -1000px;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+

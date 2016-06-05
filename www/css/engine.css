@@ -1,0 +1,156 @@
+*{margin:0;padding:0}
+html,body{font-size:12pt;color:#000;background-color:#FDFFDA;font-family:arial}
+#header,#body,#footer{margin-right:auto;width:900px;margin-left:auto}
+#logo{height:89px;width:276px;margin-left:10px;float:left;margin-top:10px}
+#footLogo{height:60px;width:170px}
+.dropdown-menu{background:#fff;border:1px solid #68B4D7;left:10px;top:10px;min-width:10px;padding:3px 7px 4px}
+.dropdown-menu ul{padding-left:1px;margin-bottom:1px;margin-top:1px;list-style:none}
+.content{background:url('/images/white.gif')}
+.content h1{font-size:15pt}
+.content a{color:#000}
+.formtool .tool{float:right;margin-top:-12px}
+.messagePopup,.errorPopup{z-index:9999;padding-top:30px;top:100%;margin-top:-90px;font-weight:700;padding-left:15px;width:350px;padding-right:15px;height:90px;left:0;position:fixed;color:#fff}
+.errorPopup{background:url('/images/popupError.gif')}
+.messagePopup{background:url('/images/popup.gif')}
+.popupButton{right:8px;float:right;top:8px;cursor:pointer;width:30px;height:30px}
+#header{background-image:url('/images/top.jpg');margin-bottom:30px;height:154px}
+#menu{padding-right:5px;display:inline;width:815px}
+#menu ul{font-size:14px;list-style:none}
+#menu ul a,#footer ul a,.bidUser a{color:#fff}
+#menu ul a:hover,#footer ul a:hover,.bidUser a:hover{text-decoration:underline}
+#menu li{clear:none;padding-left:5px}
+#menu li.last{border-right:none}
+#loader{border-left:1px solid #68B4D7;left:50%;border-bottom:1px solid #68B4D7;top:0;border-right:1px solid #68B4D7}
+#searchBox{margin-right:10px;height:84px;font-size:18px;width:338px;margin-top:35px;background-image:url('/images/top_searchbox.gif');color:#fff}
+#searchBox form{margin-top:21px;margin-left:30px}
+#searchBox form #criteria{border:1px solid;margin-left:5px}
+#searchBox #searchsubmit{margin-top:-22px;margin-right:5px;float:right;width:30px;height:27px}
+#body{margin-bottom:20px}
+#right{padding-right:20px;background-image:url('/images/fond.jpg');background-repeat:repeat-y;margin-left:35px;padding-left:20px;margin-right:35px}
+#footer{width:900px;height:99px;background-image:url('/images/bottom.jpg')}
+#footer ul{list-style:none;color:#fff}
+#footer .footcol{margin-right:30px;text-align:right;margin-top:25px}
+#footer .last{border-right:none!important}
+.bidUser span,.clearboth{clear:both}
+#bidTools{margin-top:-12px}
+#addingComp span,.spacer,.homeFile,.searchGroup,.searchGroupUser,.searchGroupStyle,.searchLabel,#settings .block,#login .block,#forgot .block,#register .block{clear:both;display:block}
+.loginValid{width:57px;margin-right:5px;margin-top:-13px;height:46px}
+#loginrememberme{font-weight:700;color:#3C9DCA}
+#helpImg{background:#06C}
+#newMessageForm .inform{min-width:500px}
+#newMessageForm label{display:block;float:left;min-width:100px}
+#newMessageForm textarea,#mpResponseForm textarea{clear:both;display:block;min-width:500px}
+#MPsection{color:#3D9EC8}
+table#MPsection,table#groupManagerTable{width:100%;border:2px solid #fff}
+table .alternate1,.compoFolder options{background:#D4EFFA}
+table .alternate2{background:#B0E6FF}
+table th{background:#3D9EC8;color:#fff}
+#facebox .content{width:500px!important}
+#facebox table{border-style:none!important}
+#createNewGroupFrom span{line-height:30px}
+.sixtypercent{width:64%}
+.thirtypercent{width:30%}
+.homeFile .competence,.searchGroupUser .competence,.searchGroupStyle .style,.searchLabel .label{color:#9CA295}
+.homeFile .avatar{margin-right:5px;height:55px;float:left;width:55px}
+.homeFile .title,.searchGroup .searchGroupName,.searchGroup .location{display:block;clear:right}
+#nbFound{clear:both;color:#000}
+#toggleAdvancedSearch,#bidToGroupAjax,#censorPage,#notExisting,#facebox .loading,#facebox .image,button,.pagination{text-align:center}
+.searchGroup .avatar{margin-right:10px;float:left}
+.twentyfivepercent{width:25%}
+.sixtyfivepercent{width:69%}
+.titleH1{line-height:40px;font-size:25px}
+.titleBlog{color:#969B94}
+.alignright{text-align:right}
+#compositions,#studiocompos{list-style:none}
+#compositions li{margin-left:10px;list-style:none}
+.compoLine{width:765px;padding-left:10px}
+.comments{padding:5px;border:1px solid #F8E188}
+.commentItem{border:1px solid #000;margin-top:5px}
+.commentTitle{margin-bottom:5px;display:block;color:#969B94}
+#answerComment textarea{width:300px}
+a.report{color:#900}
+.helpMessage h1{font-size:18px;margin-bottom:5px;background-color:#3C9DCA;padding:5px;color:#fff}
+#studioMenu{float:left;width:40%}
+#studioContent{width:54%;float:right}
+#studiocompos li,.folderInside{margin-left:10px}
+a img{border-style:0;border:none}
+.absolute{margin-top:-37px}
+html>body .starRating,html>body .starRatingDisabled{margin-top:40px}
+.ressources{line-height:0;visibility:hidden;display:none;font-size:0}
+.left{float:left}
+.hidden,#uploadPhoto,#uploadCompo,.addCompoDiv{display:none}
+#loading{z-index:2;color:#000;font-size:80%;border:1px solid black;right:1px;top:1px}
+td,tr,th{overflow:hidden}
+label.checkbox_checked{background:transparent url(/css/crir/tick.png) no-repeat}
+label.checkbox_unchecked{background:transparent url(/css/crir/cross.png) no-repeat}
+label.radio_checked{background:transparent url(/css/crir/bullet_green.png) no-repeat}
+label.radio_unchecked{background:transparent url(/css/crir/bullet_white.png) no-repeat}
+label:hover{color:#575B60}
+label.highlighted{border:1px solid #333}
+.crirHidden{left:-1000px}
+#facebox .b{background:url(/css/facebox/b.png)}
+#facebox .tl{background:url(/css/facebox/tl.png)}
+#facebox .tr{background:url(/css/facebox/tr.png)}
+#facebox .bl{background:url(/css/facebox/bl.png)}
+#facebox .br{background:url(/css/facebox/br.png)}
+#facebox{text-align:left;top:0;z-index:100;left:0}
+#facebox .popup{position:relative}
+#facebox table{border-collapse:collapse}
+#facebox td{padding:0;border-bottom:0}
+#facebox .body{background:#fff;width:370px;padding:10px}
+#facebox img{margin:0;border:0}
+#facebox .footer{text-align:right;border-top:1px solid #DDD;padding-top:5px;margin-top:10px}
+#facebox .tl,#facebox .tr,#facebox .bl,#facebox .br{overflow:hidden;height:10px;padding:0;width:10px}
+#facebox_overlay{width:100%;height:100%;top:0;left:0;position:fixed}
+.facebox_hide{z-index:-100}
+.facebox_overlayBG{z-index:99;background-color:#000}
+* html #facebox_overlay{height:expression(document.body.scrollHeight>document.body.offsetHeight ? document.body.scrollHeight:document.body.offsetHeight+'px');position:absolute}
+.ui-stars-cancel,.ui-stars-star{text-indent:-999em;width:17px;display:block;cursor:pointer;height:15px;overflow:hidden;background:transparent;float:left}
+.ui-stars-cancel,.ui-stars-cancel a{background:url(/css/starrating/delete.gif) no-repeat 0 -16px}
+.ui-stars-star,.ui-stars-star a{background:url(/css/starrating/star.gif) no-repeat 0 0}
+.ui-stars-cancel a,.ui-stars-star a{display:block;background-position:0 0;height:100%;width:16px}
+.ui-stars-star-on a{background-position:0 -16px!important}
+.ui-stars-star-hover a{background-position:0 -32px}
+.ui-stars-cancel-hover a{background-position:0 -16px}
+.ui-stars-cancel-disabled a,.ui-stars-star-disabled,.ui-stars-star-disabled a{cursor:default!important}
+.ui-stars-star{overflow:hidden!important;background:transparent!important}
+#modalOverlay{background-color:#000;cursor:wait}
+#modalContainer{border:3px solid #ccc;height:400px;left:50%;width:600px;background-color:#fff;margin-left:-300px;top:15%}
+#modalContainer a.modalCloseImg{height:29px;position:absolute;cursor:pointer;right:-18px;z-index:3200;top:-14px;display:inline;background:url('/css/simplemodal/x.png') no-repeat;width:25px}
+button:active,a,span:active,button:hover,input:active,span:hover,button:focus,input:focus,span:focus{outline:none}
+#errormsg,#successmsg,.success,.error{padding-left:35px;font-weight:700;padding-top:5px;min-height:25px;margin-top:10px}
+#errormsg,.error{background-image:url('/images/error.gif')}
+#successmsg,.success{background-image:url('/images/success.gif')}
+#login label{width:170px;float:left}
+#forgot label,#register label{width:200px;float:left}
+#settings label{float:left;width:150px}
+#settings h2{font-size:15px}
+button{cursor:pointer;border:0;padding:0 15px 0 0}
+button span{padding:0 0 0 15px;display:block;white-space:nowrap;position:relative}
+button.submitBtn{font-weight:700;background:url(/images/coolbuttonright.png) right no-repeat}
+button.submitBtn span{color:#FFF;line-height:24px;background:url(/images/coolbuttonleft.png) left no-repeat;margin-top:-1px;height:24px}
+button{overflow:visible;width:auto}
+button span{margin-top:1px}
+.pagination{margin:5px 0;font:12px Arial,Helvetica,sans-serif}
+.pagination a{border:1px solid #06c;color:#06c}
+.pagination a:hover{color:#bd88fe;background:#fff;border:1px solid #bd88fe}
+.pagination span.inactive{color:#f0f0ff;border:1px solid #f0f0ff}
+.pagination span.active{background:#f4ebff;color:#bd88fe;font-weight:700;padding:.2em .4em;margin:2px;border:1px solid #bd88fe}
+.fileUploadQueueItem{font:11px Verdana,Geneva,sans-serif;border:3px solid #E5E5E5;background-color:#F5F5F5;padding:10px;margin-top:5px;width:300px}
+.fileUploadQueueItem .cancel,#menu,#searchBox,#bidTools,.loginValid,.absolute,.right{float:right}
+.fileUploadProgress{border-bottom:1px solid #C5C5C5;border-top:1px solid gray;width:100%;border-right:1px solid #C5C5C5;border-left:1px solid gray;margin-top:10px}
+.fileUploadProgressBar{background-color:#09F}
+label.checkbox_checked,label.checkbox_unchecked,label.radio_checked,label.radio_unchecked{margin:10px 0;display:inline;padding-left:25px;padding-bottom:3px}
+.formtool,.bidUser{color:#FFF;margin:10px;background-color:#3C9DCA;margin-bottom:30px;padding:10px}
+.errorPopup,.messagePopup,#header,#searchBox,#footer,#errormsg,.error,#successmsg,.success{background-repeat:no-repeat}
+#menu li,.clearboth,#login label,#forgot label,#register label,#settings label{display:inline;white-space:nowrap}
+.content a,#menu ul,#searchBox,#footer ul,#censorPage,table th,#nbFound,.titleH1,.titleBlog,.helpMessage h1,#loading{font-weight:700}
+.content,#right,#helpImg,.comments,.compoFolder options,.formtool,.bidUser{-moz-border-radius:1em}
+#menu ul a,#footer ul a,.bidUser a,a.comment,a.report,.pagination a{text-decoration:none}
+#menu li,#footer .footcol{float:right;border-right:1px solid #fff;padding-right:5px}
+.dropdown-menu,.popupButton,#loader,#loading,.crirHidden,#facebox{position:absolute}
+.content,.searchGroup,#compositions,.helpMessage,.studiocompos li{margin-bottom:10px}
+#footer,#footer ul,a.comment,a.report{font-size:12px}
+#loader,#loading,.fileUploadProgress{background-color:#FFF}
+.pagination a,.pagination span.inactive{background:#fff;padding:.2em .4em;margin:2px}
+.content,#right,#footer{padding:10px}

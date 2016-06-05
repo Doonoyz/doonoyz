@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>Docs For Class Twinmusic_Group</title>
+			<link rel="stylesheet" href="../../media/stylesheet.css" />
+						<script src="../../media/lib/classTree.js"></script>
+												<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "../../media/images/plus.png";
+				imgMinus.src = "../../media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name"><img src="../../media/images/Class_logo.png"
+														alt=" Class"
+														title=" Class"
+														style="vertical-align: middle"> Twinmusic_Group</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Manage on group</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Jeremy MOULIN &lt;<a href="mailto:jeremy.moulin@doonoyz.com">jeremy.moulin@doonoyz.com</a>&gt;</li>
+				<li><span class="field">version:</span> Paper</li>
+				<li><span class="field">copyright:</span> 2008-2009 Doonoyz</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_library---Twinmusic---Group.php.html">/library/Twinmusic/Group.php</a> (line <span class="field"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a11">11</a></span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																											
+				<div class="method-definition">
+					<img src="../../media/images/StaticMethod.png" alt=" "/>
+					static 						<span class="method-result">Array</span>
+										<a href="#getAllGroups" title="details" class="method-name">getAllGroups</a>
+											([<span class="var-type">bool</span>&nbsp;<span class="var-name">$active</span> = <span class="var-default">null</span>])
+									</div>
+																																																															
+				<div class="method-definition">
+					<img src="../../media/images/StaticMethod.png" alt=" "/>
+					static 						<span class="method-result"><a href="../../Doonoyz/library/Twinmusic_Group.html">Twinmusic_Group</a></span>
+										<a href="#getGroupByUrl" title="details" class="method-name">getGroupByUrl</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																																																							
+				<div class="method-definition">
+					<img src="../../media/images/StaticMethod.png" alt=" "/>
+					static 						<span class="method-result">Array</span>
+										<a href="#getManagingGroups" title="details" class="method-name">getManagingGroups</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/StaticMethod.png" alt=" "/>
+					static 						<span class="method-result">Array</span>
+										<a href="#getMostAppreciated" title="details" class="method-name">getMostAppreciated</a>
+										()
+									</div>
+																																							
+				<div class="method-definition">
+					<img src="../../media/images/StaticMethod.png" alt=" "/>
+					static 						<span class="method-result">Array</span>
+										<a href="#getRecentGroups" title="details" class="method-name">getRecentGroups</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$limit</span> = <span class="var-default">4</span>])
+									</div>
+																																																																																																																																																							
+				<div class="method-definition">
+					<img src="../../media/images/StaticMethod.png" alt=" "/>
+					static 						<span class="method-result">void</span>
+										<a href="#setMostAppreciated" title="details" class="method-name">setMostAppreciated</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$mostAp</span>)
+									</div>
+																																																			
+				<div class="method-definition">
+					<img src="../../media/images/Constructor.png" alt=" "/>
+											<span class="method-result">Twinmusic_Group</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span> = <span class="var-default">0</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#activateInGroup" title="details" class="method-name">activateInGroup</a>
+											(<span class="var-type">Array</span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#addToGroup" title="details" class="method-name">addToGroup</a>
+											(<span class="var-type">Array</span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#bidToGroup" title="details" class="method-name">bidToGroup</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#commit" title="details" class="method-name">commit</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">int</span>
+										<a href="#getAdmin" title="details" class="method-name">getAdmin</a>
+										()
+									</div>
+																							
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">Array</span>
+										<a href="#getAllNotes" title="details" class="method-name">getAllNotes</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">Array</span>
+										<a href="#getAverage" title="details" class="method-name">getAverage</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">int</span>
+										<a href="#getCensure" title="details" class="method-name">getCensure</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">Array</span>
+										<a href="#getCompetencies" title="details" class="method-name">getCompetencies</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">Array</span>
+										<a href="#getContacts" title="details" class="method-name">getContacts</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getDescription" title="details" class="method-name">getDescription</a>
+										()
+									</div>
+																							
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">Array</span>
+										<a href="#getGroupStyles" title="details" class="method-name">getGroupStyles</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">int</span>
+										<a href="#getId" title="details" class="method-name">getId</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">float</span>
+										<a href="#getLat" title="details" class="method-name">getLat</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getLieu" title="details" class="method-name">getLieu</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">float</span>
+										<a href="#getLong" title="details" class="method-name">getLong</a>
+										()
+									</div>
+																															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getNom" title="details" class="method-name">getNom</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getPays" title="details" class="method-name">getPays</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getPostal" title="details" class="method-name">getPostal</a>
+										()
+									</div>
+																							
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getUrl" title="details" class="method-name">getUrl</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">Array</span>
+										<a href="#getUserList" title="details" class="method-name">getUserList</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">bool</span>
+										<a href="#inGroup" title="details" class="method-name">inGroup</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$item</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$activated</span> = <span class="var-default">true</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">bool</span>
+										<a href="#isActive" title="details" class="method-name">isActive</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">bool</span>
+										<a href="#isFull" title="details" class="method-name">isFull</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">bool</span>
+										<a href="#isLocationProcessed" title="details" class="method-name">isLocationProcessed</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#removeFromGroup" title="details" class="method-name">removeFromGroup</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$array</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#renameInGroup" title="details" class="method-name">renameInGroup</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$user</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$name</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setActive" title="details" class="method-name">setActive</a>
+											([<span class="var-type">bool</span>&nbsp;<span class="var-name">$value</span> = <span class="var-default">true</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setAdmin" title="details" class="method-name">setAdmin</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setCensure" title="details" class="method-name">setCensure</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setDescription" title="details" class="method-name">setDescription</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setFull" title="details" class="method-name">setFull</a>
+											([<span class="var-type">bool</span>&nbsp;<span class="var-name">$value</span> = <span class="var-default">true</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setLat" title="details" class="method-name">setLat</a>
+											(<span class="var-type">float</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setLieu" title="details" class="method-name">setLieu</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setLocationProcessed" title="details" class="method-name">setLocationProcessed</a>
+											([<span class="var-type">bool</span>&nbsp;<span class="var-name">$value</span> = <span class="var-default">true</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setLong" title="details" class="method-name">setLong</a>
+											(<span class="var-type">float</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																							
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setNom" title="details" class="method-name">setNom</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setPays" title="details" class="method-name">setPays</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setPostal" title="details" class="method-name">setPostal</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../../media/images/Method.png" alt=" "/>
+											<span class="method-result">bool</span>
+										<a href="#setUrl" title="details" class="method-name">setUrl</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodgetAllGroups" id="getAllGroups"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/StaticMethod.png" />
+		<span class="method-title">static getAllGroups</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a815">815</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieve groups active or not sorted by url</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing groups informations</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		static <span class="method-result">Array</span>
+		<span class="method-name">
+			getAllGroups
+		</span>
+					([<span class="var-type">bool</span>&nbsp;<span class="var-name">$active</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$active</span><span class="var-description">: Active state, null to be ignored</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetGroupByUrl" id="getGroupByUrl"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/StaticMethod.png" />
+		<span class="method-title">static getGroupByUrl</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a682">682</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get Group by its url</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Group instance</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		static <span class="method-result"><a href="../../Doonoyz/library/Twinmusic_Group.html">Twinmusic_Group</a></span>
+		<span class="method-name">
+			getGroupByUrl
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$url</span><span class="var-description">: Url of the group</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetManagingGroups" id="getManagingGroups"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/StaticMethod.png" />
+		<span class="method-title">static getManagingGroups</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a770">770</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieve all groups current user is admin</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing informations</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		static <span class="method-result">Array</span>
+		<span class="method-name">
+			getManagingGroups
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetMostAppreciated" id="getMostAppreciated"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/StaticMethod.png" />
+		<span class="method-title">static getMostAppreciated</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a618">618</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get most appreciated groups</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing informations</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		static <span class="method-result">Array</span>
+		<span class="method-name">
+			getMostAppreciated
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRecentGroups" id="getRecentGroups"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/StaticMethod.png" />
+		<span class="method-title">static getRecentGroups</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a603">603</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get recent groups</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing informations</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		static <span class="method-result">Array</span>
+		<span class="method-name">
+			getRecentGroups
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$limit</span> = <span class="var-default">4</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$limit</span><span class="var-description">: Number of result</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetMostAppreciated" id="setMostAppreciated"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/StaticMethod.png" />
+		<span class="method-title">static setMostAppreciated</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a651">651</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set most appreciated groups</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		static <span class="method-result">void</span>
+		<span class="method-name">
+			setMostAppreciated
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$mostAp</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$mostAp</span><span class="var-description">: Array of Group Id</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Constructor.png" />
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a111">111</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructor</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Twinmusic_Group</span>
+		<span class="method-name">
+			__construct
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: Group ID</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodactivateInGroup" id="activateInGroup"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">activateInGroup</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a491">491</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Activate users in group</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			activateInGroup
+		</span>
+					(<span class="var-type">Array</span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">Array</span>
+				<span class="var-name">$array</span><span class="var-description">: Array of all users to activate in this group</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddToGroup" id="addToGroup"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">addToGroup</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a470">470</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Add user to group</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addToGroup
+		</span>
+					(<span class="var-type">Array</span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">Array</span>
+				<span class="var-name">$array</span><span class="var-description">: Array of users to add in group</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodbidToGroup" id="bidToGroup"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">bidToGroup</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a752">752</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Bid to group</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			bidToGroup
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$id</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$id</span><span class="var-description">: User id that bid to group</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcommit" id="commit"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">commit</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a395">395</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Save group updates</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			commit
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetAdmin" id="getAdmin"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getAdmin</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a223">223</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get admin user Id</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getAdmin
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetAllNotes" id="getAllNotes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getAllNotes</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a560">560</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieve all informations aboute composition notes</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing informations</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Array</span>
+		<span class="method-name">
+			getAllNotes
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetAverage" id="getAverage"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getAverage</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a538">538</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get average note of all compositions notes</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing informations</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Array</span>
+		<span class="method-name">
+			getAverage
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCensure" id="getCensure"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getCensure</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a207">207</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get Group censure</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getCensure
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCompetencies" id="getCompetencies"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getCompetencies</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a694">694</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get competencies for each user</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing informations</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Array</span>
+		<span class="method-name">
+			getCompetencies
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetContacts" id="getContacts"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getContacts</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a729">729</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get group contacts</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing informations</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Array</span>
+		<span class="method-name">
+			getContacts
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetDescription" id="getDescription"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getDescription</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a183">183</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get Group description</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getDescription
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetGroupStyles" id="getGroupStyles"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getGroupStyles</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a711">711</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get group styles</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing informations</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Array</span>
+		<span class="method-name">
+			getGroupStyles
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetId" id="getId"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getId</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a142">142</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get Group Id</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getId
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetLat" id="getLat"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getLat</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a239">239</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get group latitude</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">float</span>
+		<span class="method-name">
+			getLat
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetLieu" id="getLieu"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getLieu</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a159">159</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get City</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getLieu
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetLong" id="getLong"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getLong</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a231">231</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get group longitude</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">float</span>
+		<span class="method-name">
+			getLong
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetNom" id="getNom"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getNom</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a167">167</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get Group Name</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getNom
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPays" id="getPays"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getPays</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a151">151</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get Country</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getPays
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPostal" id="getPostal"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getPostal</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a175">175</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get Postal code</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getPostal
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetUrl" id="getUrl"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getUrl</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a247">247</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get group url</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getUrl
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetUserList" id="getUserList"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">getUserList</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a430">430</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get group members list</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array containing members user id</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Array</span>
+		<span class="method-name">
+			getUserList
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodinGroup" id="inGroup"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">inGroup</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a448">448</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Check if user id is in group</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> User is in group</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			inGroup
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$item</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$activated</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$item</span><span class="var-description">: User id</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$activated</span><span class="var-description">: User is validated</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodisActive" id="isActive"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">isActive</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a191">191</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Check if group is active</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			isActive
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisFull" id="isFull"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">isFull</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a215">215</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Check if Group is full</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			isFull
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisLocationProcessed" id="isLocationProcessed"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">isLocationProcessed</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a199">199</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Check if group location is processed</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			isLocationProcessed
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodremoveFromGroup" id="removeFromGroup"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">removeFromGroup</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a521">521</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Remove members from group</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			removeFromGroup
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$array</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$array</span><span class="var-description">: Array of user id to remove from group</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodrenameInGroup" id="renameInGroup"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">renameInGroup</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a793">793</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Rename a user in the group</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			renameInGroup
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$user</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$name</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$user</span><span class="var-description">: User id of the member to rename</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$name</span><span class="var-description">: New name of the user</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetActive" id="setActive"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setActive</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a360">360</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group active state</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setActive
+		</span>
+					([<span class="var-type">bool</span>&nbsp;<span class="var-name">$value</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$value</span><span class="var-description">: Group active state</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetAdmin" id="setAdmin"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setAdmin</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a351">351</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group Admin user id</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setAdmin
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$value</span><span class="var-description">: Admin user id</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetCensure" id="setCensure"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setCensure</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a377">377</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group censure</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setCensure
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$value</span><span class="var-description">: Censure age</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetDescription" id="setDescription"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setDescription</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a291">291</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group description</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDescription
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: group description</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetFull" id="setFull"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setFull</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a387">387</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group full state</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setFull
+		</span>
+					([<span class="var-type">bool</span>&nbsp;<span class="var-name">$value</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$value</span><span class="var-description">: Group full state</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetLat" id="setLat"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setLat</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a307">307</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group latitude</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setLat
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$value</span><span class="var-description">: Latitude</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetLieu" id="setLieu"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setLieu</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a267">267</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group city</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setLieu
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: group city</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetLocationProcessed" id="setLocationProcessed"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setLocationProcessed</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a368">368</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group location processed state</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setLocationProcessed
+		</span>
+					([<span class="var-type">bool</span>&nbsp;<span class="var-name">$value</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$value</span><span class="var-description">: Group location processed state</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetLong" id="setLong"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setLong</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a299">299</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group longitude</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setLong
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$value</span><span class="var-description">: Longitude</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetNom" id="setNom"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setNom</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a315">315</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group name</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setNom
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: Group Name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetPays" id="setPays"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setPays</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a256">256</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group country</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setPays
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: group country</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetPostal" id="setPostal"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setPostal</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a279">279</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group postal code</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setPostal
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: postal code</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetUrl" id="setUrl"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../../media/images/Method.png" />
+		<span class="method-title">setUrl</span> (line <span class="line-number"><a href="../../__filesource/fsource_Doonoyz_library_libraryTwinmusicGroup.php.html#a325">325</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set group url</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Url is valid ?</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			setUrl
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: Group Url</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+	
+	<p class="notes" id="credit">
+		Documentation generated on Thu, 12 Mar 2009 09:19:31 -0400 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</div></body>
+</html>

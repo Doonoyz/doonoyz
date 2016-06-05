@@ -1,0 +1,140 @@
+a {   outline: none; }
+span:active {   outline: none; }
+button:hover {   outline: none; }
+button:active {   outline: none; }
+input:active {   outline: none; }
+span:hover {   outline: none; }
+button:focus {   outline: none; }
+input:focus {   outline: none; }
+span:focus {   outline: none; }
+
+#errormsg, #successmsg, .success, .error
+{
+	font-weight:bold;
+	margin-top:10px;
+	min-height:25px;
+	padding-left:35px;
+	padding-top:5px;
+}
+
+#errormsg, .error {
+	background-image:url('/images/error.gif');
+	background-repeat:no-repeat;
+}
+
+#successmsg, .success
+{
+	background-repeat:no-repeat;
+	background-image:url('/images/success.gif');
+}
+
+#login label 
+{
+	width:170px;
+	display:inline;
+	white-space:nowrap;
+	float:left
+}
+
+#settings .block, #login .block, #forgot .block, #register .block
+{
+	display:block;
+	clear:both;
+}
+
+#forgot label, #register label 
+{
+	width:200px;
+	display:inline;
+	white-space:nowrap;
+	float:left
+}
+
+#settings label 
+{
+	width:150px;
+	display:inline;
+	white-space:nowrap;
+	float:left
+}
+
+#settings h2
+{
+  font-size:15px;
+}
+
+
+/** Slidding doors method **/
+button { 
+  border:0; 
+  cursor:pointer; 
+  padding:0 15px 0 0; 
+  text-align:center; 
+}
+button span { 
+  position:relative; 
+  display:block; 
+  white-space:nowrap; 
+  padding:0 0 0 15px; 
+}
+
+/*blue buttons*/
+button.submitBtn { 
+  background:url(/images/coolbuttonright.png) right no-repeat; 
+  font-weight:bold; 
+}
+button.submitBtn span { 
+  margin-top:-1px;
+  height:24px; 
+  line-height:24px;
+  background:url(/images/coolbuttonleft.png) left no-repeat;
+  color:#FFFFFF; 
+}
+
+button { 
+  width:auto; 
+  overflow:visible; 
+}
+button span { 
+  margin-top:1px; 
+}
+
+/** PAGINATION **/
+.pagination {
+font:12px Arial, Helvetica, sans-serif;
+margin:5px 0;
+text-align:center;
+}
+
+.pagination a {
+background:#fff;
+border:1px solid #06c;
+color:#06c;
+margin:2px;
+padding:.2em .4em;
+text-decoration:none;
+}
+
+.pagination a:hover {
+background:#fff;
+border:1px solid #bd88fe;
+color:#bd88fe;
+}
+
+.pagination span.inactive {
+background:#fff;
+border:1px solid #f0f0ff;
+color:#f0f0ff;
+margin:2px;
+padding:.2em .4em;
+}
+
+.pagination span.active {
+background:#f4ebff;
+border:1px solid #bd88fe;
+color:#bd88fe;
+font-weight:700;
+margin:2px;
+padding:.2em .4em;
+}
+/** END PAGINATION **/

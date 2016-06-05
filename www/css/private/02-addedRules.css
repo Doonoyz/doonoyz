@@ -1,0 +1,67 @@
+/** ADDED RULES **/
+
+a img
+{
+	border:none;
+	border-style:0px;
+}
+
+.absolute
+{
+  float:right;
+  margin-top:-37px;
+}
+
+html > body .starRating, html > body .starRatingDisabled {
+	margin-top:40px;
+}
+
+.ressources
+{
+	display:none;
+	visibility:hidden;
+	font-size:0px;
+	line-height:0px;
+}
+
+.right
+{
+	float:right;
+}
+
+.left
+{
+	float:left;
+}
+
+.hidden
+{
+	display:none;
+}
+
+#uploadPhoto, #uploadCompo
+{
+  display:none;
+}
+
+.addCompoDiv
+{
+  display:none;
+}
+
+
+#loading {
+	top:1px;
+	right:1px;
+	color:#000000;
+	background-color:#FFFFFF;
+	border:1px solid black;
+	font-size:80%;
+	font-weight:bold;
+	position:absolute;
+	z-index:2;
+}
+
+td, tr, th {
+	overflow:hidden;
+}

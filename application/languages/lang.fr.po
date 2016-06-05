@@ -1,0 +1,3416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Doonoyz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-24 04:04+0200\n"
+"PO-Revision-Date: 2009-06-24 04:11+0100\n"
+"Last-Translator: Jeremy MOULIN <jeremy.moulin@doonoyz.com>\n"
+"Language-Team: Doonoyz <contact@doonoyz.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: C:\Documents
+#: and Settings\Administrateur\Bureau\Core\Twindoo\User.php:318
+#: Settings\Administrateur\Bureau\Core\Twindoo\User.php:323
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:137
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:138
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:41
+msgid "Invitation"
+msgstr "Invitation"
+
+#: C:\Documents
+#: and Settings\Administrateur\Bureau\Core\Twindoo\User.php:319
+msgid "A user has invited you to join his group. Click this link to create an account:"
+msgstr "Un utilisateur vous invite à rejoindre son groupe. Cliquez sur le lien pour créer un compte:"
+
+#: C:\Documents
+#: and Settings\Administrateur\Bureau\Core\Twindoo\User.php:321
+msgid "See you soon on Doonoyz."
+msgstr "A bientôt sur Doonoyz."
+
+#: C:\Documents
+#: and Settings\Administrateur\Bureau\Core\Twindoo\User.php:338
+msgid "Welcome to Doonoyz"
+msgstr "Bienvenue sur Doonoyz"
+
+#: C:\Documents
+#: and Settings\Administrateur\Bureau\Core\Twindoo\User.php:339
+msgid "To confirm, please click on this link:"
+msgstr "Pour confirmer, veuillez cliquer sur ce lien:"
+
+#: C:\Documents
+#: and Settings\Administrateur\Bureau\Core\Twindoo\User.php:340
+msgid "Thanks for your registration, see you soon on Doonoyz!"
+msgstr "Merci pour votre inscription, à bientôt sur Doonoyz!"
+
+#: C:\Documents
+#: and Settings\Administrateur\Bureau\Core\Twindoo\User.php:342
+msgid "New account"
+msgstr "Nouveau compte"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:68
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:116
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:200
+msgid "Passwords do not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:74
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:75
+msgid "Settings"
+msgstr "Paramètres"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:79
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:144
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:212
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:386
+msgid "Password"
+msgstr "Mot de passe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:80
+msgid "Click here to change password"
+msgstr "Cliquez ici pour changer de mot de passe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:81
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:298
+msgid "Confirm password"
+msgstr "Confirmez le mot de passe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:82
+msgid "Save"
+msgstr "Enregistrer"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:84
+msgid "I want to unregister my account"
+msgstr "Je veux me désinscrire"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:114
+msgid "Your account has been created"
+msgstr "Votre compte a été créé"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:119
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:191
+msgid "Login seems invalid or you are already in our database!"
+msgstr "Le login semble erroné ou déjà dans notre base de donnée"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:123
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:194
+msgid "Your last name and first name are required!"
+msgstr "Votre nom et votre prénom sont requis !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:128
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:132
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:174
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:291
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:455
+msgid "This URL does not exist"
+msgstr "Cette adresse n'existe pas"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:139
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:209
+msgid "Register"
+msgstr "Inscription"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:140
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:210
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:260
+msgid "Mail"
+msgstr "Mail"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:141
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:211
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:382
+msgid "Login"
+msgstr "Login"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:142
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:215
+msgid "Last Name"
+msgstr "Nom"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:143
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:216
+msgid "First name"
+msgstr "Prénom"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:145
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:213
+msgid "Confirm Password"
+msgstr "Confirmez le mot de passe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:171
+msgid "Your account have been activated!"
+msgstr "Votre compte a été activé !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:186
+msgid "A mail has been sent. You have to accept your subscription by clicking on the link."
+msgstr "Un mail vous a été envoyé. Vous validerez votre inscription en cliquant sur le lien de confirmation."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:188
+msgid "Mail seems invalid or you are already in our database!"
+msgstr "L'adresse email semble incorrecte ou déjà dans notre base de donnée !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:197
+msgid "Security code isn't valid"
+msgstr "Le code de sécurité est invalide"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:207
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:208
+msgid "Subscription"
+msgstr "Inscription"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:214
+msgid "Security Code"
+msgstr "Code de sécurité"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:243
+msgid "Forgotten Password"
+msgstr "Mot de passe oublié"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:244
+msgid "Click on this link to reinit your password:"
+msgstr "Cliquez sur le lien pour réinitialiser votre mot de passe:"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:245
+msgid "You'll be able to create a new one. See you soon on Doonoyz."
+msgstr "Vous pourrez en créer un nouveau. A bientôt sur Doonoyz."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:248
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:256
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:257
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:294
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:295
+msgid "Forgot Password?"
+msgstr "Mot de passe oublié"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:250
+msgid "An email was sent, please read it to change your password"
+msgstr "Un mail vous a été envoyé, vous devez le lire pour changer votre mot de passe."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:252
+msgid "This e-mail address is not valid"
+msgstr "Cette adresse mail n'existe pas"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:258
+msgid "Please enter your e-mail address to change your password"
+msgstr "Entrez votre adresse mail pour changer de mot de passe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:259
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\CensorController.php:46
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:132
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\CommentController.php:92
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:137
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:140
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:106
+msgid "Submit"
+msgstr "Envoyer"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:281
+msgid "Check your passwords, they do not match."
+msgstr "Vérifiez vos mots de passe, ils diffèrent."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:286
+msgid "Your password has been changed successfully"
+msgstr "Votre mot de passe a été modifié avec succès"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:296
+msgid "Please enter a new password"
+msgstr "Entrez un nouveau mot de passe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:297
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:299
+msgid "Change"
+msgstr "Changer"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:318
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:347
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:354
+msgid "OpenID login failed"
+msgstr "Connexion OpenID échouée"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:331
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:367
+msgid "Login failed, check your login/password."
+msgstr "Connexion échouée, vérifiez votre login/mot de passe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:334
+msgid "Your account isn't active."
+msgstr "Votre compte est inactif."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:375
+msgid "OpenID login cancelled"
+msgstr "Connexion OpenID annulée"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:381
+msgid "Connect"
+msgstr "Connexion"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:383
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:113
+msgid "Connection"
+msgstr "Connexion"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:384
+msgid "Doonoyz Account"
+msgstr "Compte Doonoyz"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:385
+msgid "Mail or Login"
+msgstr "Mail ou Login"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:387
+msgid "Login with OpenID!"
+msgstr "Connexion avec OpenID !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:388
+msgid "Remember Me?"
+msgstr "Se souvenir de moi ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:389
+msgid "Forgotten password?"
+msgstr "Mot de passe oublié ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:390
+msgid "No account? Click here to register."
+msgstr "Pas de compte ? Cliquez ici pour vous enregistrer !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:427
+msgid "Are you sure you want to leave us and close your account?"
+msgstr "Êtes-vous sur de vouloir nous quitter et fermer votre compte ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:433
+msgid "A mail has been sent to you, you have to click the link inside to unsubscribe."
+msgstr "Un mail vous a été envoyé. Vous devrez cliquer sur le lien pour confirmer votre désinscription"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:439
+msgid "Thanks for your participation to Doonoyz"
+msgstr "Merci pour votre participation à Doonoyz"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:440
+msgid "You received this mail because you asked us to delete your account. Click this link to confirm this request:"
+msgstr "Vous recevez cet email après une demande de suppression de compte. Cliquez sur le lien pour confirmation:"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:441
+msgid "Sorry to see you go. See you soon on Doonoyz."
+msgstr "Désolé de vous voir partir. A bientôt sur Doonoyz."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:444
+msgid "Unregistration"
+msgstr "Désinscription"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:451
+msgid "Your account has been deleted successfully, see you later!"
+msgstr "Votre compte a été supprimé avec succès, à plus tard !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:461
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:468
+msgid "Unregister"
+msgstr "Désinscription"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:462
+msgid "Yes, close this account"
+msgstr "Oui, fermer ce compte"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Core\Twindoo\Controller\WsController.php:463
+msgid "No, it was just a mistake, forget that"
+msgstr "Non, c'est une erreur, oublie"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\BlockgroupController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\BlockuserController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\CensorController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\CheckController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\DeletetaskController.php:16
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\GroupsController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\HomeController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\UserController.php:15
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:112
+msgid "Admin"
+msgstr "Administration"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\CensorController.php:35
+msgid "Censored successfully"
+msgstr "Censuré avec succès"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\CensorController.php:35
+msgid "Error while censoring"
+msgstr "Erreur pendant la censure"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\CensorController.php:42
+msgid "none"
+msgstr "aucun(e)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\CensorController.php:47
+#, php-format
+msgid "You're about to censor '%s'"
+msgstr "Vous allez censurer '%s'"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:19
+msgid "Group Style"
+msgstr "Style du groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:20
+msgid "Skill"
+msgstr "Compétence"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:21
+msgid "Contact type"
+msgstr "Type de contact"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:22
+msgid "Labels"
+msgstr "Labels"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:38
+msgid "Choose a component"
+msgstr "Choisissez un composant"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:46
+msgid "Edit this component"
+msgstr "Modifier ce composant"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:47
+msgid "Choose the component to edit"
+msgstr "Choisissez le composant à modifier"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:50
+msgid "Choose the component type to edit"
+msgstr "Choisissez le type de composant à modifier"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditcomponentController.php:51
+msgid "Choose a component style"
+msgstr "Choisissez un style de composant"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:58
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:72
+msgid "Data saved successfully"
+msgstr "Données enregistrées avec succès"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:60
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:72
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:74
+msgid "Error while saving data"
+msgstr "Erreur lors de la sauvegarde des données"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:88
+msgid "Accepted successfully"
+msgstr "Accepté avec succès"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:90
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:105
+msgid "Error while treating request"
+msgstr "Erreur lors du traitement de la requête"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:103
+msgid "Deleted successfully"
+msgstr "Supprimé avec succès"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:131
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:190
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:83
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:114
+msgid "Name"
+msgstr "Nom"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:133
+msgid "Logo"
+msgstr "Logo"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:134
+msgid "Pattern"
+msgstr "Modèle"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:135
+msgid "Filter"
+msgstr "Filtre"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:136
+msgid "Replace component with"
+msgstr "Remplacer le composant par"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:137
+msgid "Add component for replace"
+msgstr "Ajouter un composant pour le remplacement"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:138
+msgid "Accept the component"
+msgstr "Accepter le composant"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\EditController.php:139
+msgid "Delete the component"
+msgstr "Supprimer le composant"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\GroupsController.php:25
+msgid "Group managing"
+msgstr "Gestion de groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\GroupsController.php:26
+msgid "Edit this group"
+msgstr "Modifier ce groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\GroupsController.php:27
+msgid "Censor"
+msgstr "Censure"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\GroupsController.php:28
+msgid "Edit group censor"
+msgstr "Modifier la censure du groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\GroupsController.php:29
+msgid "Active"
+msgstr "Actif"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\GroupsController.php:30
+msgid "Active group"
+msgstr "Groupe actif"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\GroupsController.php:31
+msgid "Block group"
+msgstr "Bloquer le groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\GroupsController.php:32
+msgid "Consult group"
+msgstr "Consulter le groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\HomeController.php:26
+msgid "Saved successfully"
+msgstr "Enregistré avec succès"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\HomeController.php:40
+msgid "Manage Most Appreciated"
+msgstr "Gérer les plus appréciés"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\HomeController.php:41
+msgid "Add the selected group"
+msgstr "Ajouter le groupe sélectionné"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\HomeController.php:42
+msgid "Save modifications"
+msgstr "Enregistrer les modifications"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:22
+msgid "Message"
+msgstr "Message"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:23
+msgid "Reported by"
+msgstr "Rapporté par"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:24
+msgid "Action"
+msgstr "Action"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:25
+msgid "Write a message to"
+msgstr "Écrire un message à"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:26
+msgid "Block user"
+msgstr "Bloquer l'utilisateur"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:27
+msgid "Check composition"
+msgstr "Vérifier la composition"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:28
+msgid "Delete composition"
+msgstr "Supprimer la composition"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:29
+msgid "Check news"
+msgstr "Vérifier la news"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:30
+msgid "Delete news"
+msgstr "Supprimer la news"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:31
+msgid "Consult group's blog"
+msgstr "Consulter le blog du groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:32
+msgid "Block group's blog"
+msgstr "Bloquer le blog du groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:33
+msgid "Censor group's blog"
+msgstr "Censurer le blog du groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:34
+msgid "Delete this task"
+msgstr "Supprimer cette tâche"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\IndexController.php:35
+msgid "Edit the component"
+msgstr "Modifier le composant"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\UserController.php:47
+msgid "Edit this user"
+msgstr "Modifier l'utilisateur"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\UserController.php:48
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:141
+msgid "Manage User"
+msgstr "Gérer les utilisateurs"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\UserController.php:49
+msgid "Block User"
+msgstr "Bloquer l'utilisateur"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\admin\controllers\UserController.php:50
+msgid "Allow User"
+msgstr "Autoriser l'utilisateur"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\AddingroupController.php:202
+msgid "User added successfully. Refresh to see him/her"
+msgstr "Utilisateur ajouté avec succès. Rafraîchissez pour le/la voir"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\AddingroupController.php:202
+msgid "User can't be invited, check his/her email address"
+msgstr "L'utilisateur ne peut être invité, vérifiez son adresse mail"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\BidController.php:40
+msgid "Your vote has been saved successfully!"
+msgstr "Votre vote a été pris en compte !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\CommentController.php:90
+msgid "Delete this comment"
+msgstr "Supprimer ce commentaire"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\CommentController.php:91
+msgid "New Comment"
+msgstr "Nouveau commentaire"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\CommentController.php:93
+msgid "No comment at the moment, be the first to react!"
+msgstr "Pas de commentaire pour le moment, soyez le premier à réagir !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\CommentController.php:94
+msgid "You must be connected to leave a comment!"
+msgstr "Vous devez être connecté(e) pour laisser un commentaire !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\GroupmanagerController.php:37
+msgid "You're not in this group anymore!"
+msgstr "Vous ne faites plus partie du groupe !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\GroupmanagerController.php:41
+msgid "You accepted to join this group!"
+msgstr "Vous avez accepté de rejoindre ce groupe !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\GroupmanagerController.php:45
+msgid "You declined to join this group!"
+msgstr "Vous avez décliné l'invitation à rejoindre ce groupe !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\GroupmanagerController.php:50
+msgid "Sorry, you're not in this group any longer!"
+msgstr "Désolé, vous ne faites plus partie de ce groupe !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\GroupmanagerController.php:52
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\ErrorController.php:18
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\ErrorController.php:71
+msgid "Error"
+msgstr "Erreur"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\HelpController.php:35
+msgid "This help doesn't exist"
+msgstr "Cette aide n'existe pas !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\UpdatecompoController.php:53
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\UpdatefolderController.php:47
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\ajax\controllers\UpdategroupController.php:76
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:56
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:57
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:81
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Mp.php:110
+msgid "(empty)"
+msgstr "(vide)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\BidController.php:19
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:173
+msgid "Bid"
+msgstr "Candidature"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\BidController.php:49
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:35
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:44
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:176
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:116
+msgid "Skills"
+msgstr "Compétences"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\BidController.php:50
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:42
+msgid "Accept"
+msgstr "Accepter"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\BidController.php:51
+msgid "Refuse"
+msgstr "Refuser"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\BidController.php:52
+msgid "Nothing to bid."
+msgstr "Aucune candidature..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\BidController.php:53
+msgid "This user wants to join your group"
+msgstr "Cet utilisateur veux joindre votre groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\ErrorController.php:36
+msgid "Error: Javascript isn't active on your browser but is required on this site. Please active it!"
+msgstr "Erreur : Javascript n'est pas actif sur votre navigateur, mais est requis sur le site. Activez-le !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\ErrorController.php:45
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:78
+msgid "Something went wrong, please try again later..."
+msgstr "Erreur inattendue, réessayez plus tard..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\ErrorController.php:75
+msgid "The page you requested was not found."
+msgstr "La page demandée n'existe pas."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\ErrorController.php:83
+msgid "An unexpected error occurred with your request. Please try again later."
+msgstr "Erreur inattendue, réessayez plus tard..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:28
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:118
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:139
+msgid "Manage Groups"
+msgstr "Gestion des groupes"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:34
+msgid "Group Name"
+msgstr "Nom du groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:36
+msgid "Status"
+msgstr "Statut"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:37
+msgid "(Bid) Deliberating"
+msgstr "(Candidature) en cours de délibération"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:38
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:141
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:67
+msgid "Cancel"
+msgstr "Annuler"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:39
+msgid "Validated"
+msgstr "Validé"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:40
+msgid "Quit this group"
+msgstr "Quitter le groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:41
+msgid "(This will delete the group)"
+msgstr "(Supprimera le groupe)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:43
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:243
+msgid "Decline"
+msgstr "Refuser"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\GroupsController.php:44
+msgid "Blocked"
+msgstr "Bloqué"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:19
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:111
+msgid "Home"
+msgstr "Accueil"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:32
+msgid "meeting"
+msgstr "rencontre"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:33
+msgid "friends"
+msgstr "amis"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:34
+msgid "listen"
+msgstr "écouter"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:35
+msgid "music"
+msgstr "musique"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:36
+msgid "free"
+msgstr "gratuit"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:37
+msgid "artists"
+msgstr "artistes"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:38
+msgid "exclusivity"
+msgstr "exculisivité"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:39
+msgid "clips"
+msgstr "clips"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:40
+msgid "videos"
+msgstr "vidéos"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:41
+msgid "fan"
+msgstr "fan"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:42
+msgid "lyrics"
+msgstr "paroles"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:43
+msgid "discover"
+msgstr "découverte"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:44
+msgid "network"
+msgstr "réseau"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:45
+msgid "social"
+msgstr "social"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:46
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:187
+msgid "group"
+msgstr "groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:47
+msgid "concert"
+msgstr "concert"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:48
+msgid "composition"
+msgstr "composition"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:49
+msgid "creation"
+msgstr "création"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:50
+msgid "band"
+msgstr "groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:54
+msgid "Presentation"
+msgstr "Présentation"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:56
+msgid "Welcome, dear Doonoyzian!"
+msgstr "Bienvenue à toi, cher/chère Doonoyzien(ne) !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:57
+msgid "Whether you are amateur, professional or just curious, if you want to create a group with a Polish singer, an Australian drummer, a French guitarist or even a Peruvian saxophonist, this site is dedicated to you."
+msgstr "Que tu sois amateur, professionnel ou juste curieux, si tu veux créer un groupe avec un chanteur polonais, un batteur australien, un guitariste français ou même un saxophoniste péruvien, ce site t’est entièrement dédié."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:58
+msgid "Whether you are a mixer, whether you are a musician, singer or even in possession of an incongruous instrument, this site dedicated to you."
+msgstr "Que tu mixes, que tu sois musicien, chanteur ou même en possession d’un instrument incongru, ce site t’est entièrement dédié. "
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:59
+msgid "If you just want to discover groups and artists who are in your area or elsewhere, if you want to have a good time, if you're wondering what you doing there, if you are fan of peanuts, or if you have not yet understood, this site is dedicated to you."
+msgstr "Si tu veux juste découvrir des groupes et des artistes qui viennent de chez toi ou d’ailleurs, si tu veux passer un bon moment, si tu te demandes ce qu’on fout là, si tu es amateur de cacahuètes et, si tu ne l’as toujours pas compris, ce site t’est entièrement dédié."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:60
+msgid "Doonoyz is there for you to create groups of virtual or real music online. Form your group, compose, record, arrange and broadcast in one place!"
+msgstr "Doonoyz est là pour que tu puisses créer des groupes de musique réels ou virtuels en ligne. Forme ton groupe, compose, enregistre, arrange et diffuse en un seul et même endroit !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:61
+msgid "You like it? You want more? So, go quickly discover your site! Yes go!"
+msgstr "Ça te plait ? Tu en redemandes ? Et bien fonce et va découvrir ton site ! Oui va !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:63
+msgid "Most Appreciated"
+msgstr "Les plus appréciés"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\IndexController.php:64
+msgid "Newcomers"
+msgstr "Les nouveaux"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:42
+msgid "You're about to invite this user with selected abilities"
+msgstr "Vous êtes sur le point d'inviter cet utilisateur avec les compétences sélectionnées"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:43
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:45
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:177
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:117
+msgid "New skill/ability"
+msgstr "Nouvelle compétence"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:46
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:178
+msgid "Add skill/ability"
+msgstr "Ajouter la  compétence"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:47
+msgid "New group"
+msgstr "Nouveau groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:48
+msgid "Invite"
+msgstr "Inviter"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:63
+msgid "Error while adding this user to your group"
+msgstr "Erreur lors de l'ajout de l'utilisateur au groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:86
+msgid "User successfully joined your group!"
+msgstr "Utilisateur ajouté au groupe avec succès !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:120
+msgid "New group/file"
+msgstr "Nouveau groupe/fiche"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:121
+msgid "Group/file Name"
+msgstr "Nom du groupe/de la fiche"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:122
+msgid "Create"
+msgstr "Créer"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:123
+msgid "Group/file URL"
+msgstr "URL du groupe/de la fiche"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:124
+msgid "required fields"
+msgstr "champs requis"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:138
+msgid "You must be connected to bid for this group"
+msgstr "Vous devez être connecté(e) pour postuler pour ce groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:140
+msgid "You're already in this group"
+msgstr "Vous êtes déjà dans ce groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:160
+msgid "You have successfully bid for the group!"
+msgstr "Votre candidature a été prise en compte !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:174
+msgid "You're about to bid for this group with selected skills/abilities"
+msgstr "Vous allez postuler pour ce groupe avec les compétences sélectionnées"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\InvitationController.php:175
+msgid "Group"
+msgstr "Groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:29
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:115
+msgid "Private Mail"
+msgstr "Messagerie Privé"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:34
+msgid "New Message"
+msgstr "Nouveau message"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:35
+msgid "Delete All"
+msgstr "Tout supprimer"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:36
+msgid "DATE / TIME"
+msgstr "DATE / HEURE"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:37
+msgid "PSEUDO"
+msgstr "PSEUDO"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:38
+msgid "TITLE"
+msgstr "TITRE"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:48
+msgid "Private Mail :: New Message"
+msgstr "Messagerie Privée :: Nouveau Message"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:67
+msgid "Your message has been sent!"
+msgstr "Votre message a été envoyé !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:69
+msgid "This user doesn't exist"
+msgstr "Cet utilisateur n'existe pas"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:74
+msgid "Title"
+msgstr "Titre"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:75
+msgid "Pseudo"
+msgstr "Pseudo"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:76
+msgid "Send"
+msgstr "Envoyer"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\MpController.php:77
+msgid "Body"
+msgstr "Corps"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:49
+#, php-format
+msgid "%s (%s) recent updates"
+msgstr "%s (%s) "
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:53
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:55
+msgid "Group is blocked"
+msgstr "Le groupe est bloqué"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:57
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:59
+msgid "Group doesn't exist"
+msgstr "Le groupe n'existe pas"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:70
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:72
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:73
+#, php-format
+msgid "%s (%s) publicated %s !"
+msgstr "%s (%s) a publié %s !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:84
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:26
+msgid "Doonoyz :: Recent Groups"
+msgstr "Doonoyz :: Groupes Récents"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:86
+msgid "Recent groups"
+msgstr "Groupes Récents"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\RssController.php:91
+#, php-format
+msgid "%s (%s) has just joined!"
+msgstr "%s (%s) vient de nous rejoindre !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:20
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:123
+msgid "Search"
+msgstr "Chercher"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:113
+#, php-format
+msgid "%s result(s) found!"
+msgstr "%s résultat(s) trouvé(s) !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:117
+msgid "No result was found!"
+msgstr "Aucun résultat !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:118
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:139
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:125
+msgid "Musical Styles"
+msgstr "Styles musicaux"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:119
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:121
+msgid "Members"
+msgstr "Membres"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:120
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:145
+msgid "Label"
+msgstr "Label"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:138
+msgid "No result was found !"
+msgstr "Aucun résultat !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:140
+msgid "Delete Criteria"
+msgstr "Supprimer le critère"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:141
+msgid "Toggle search engine display"
+msgstr "Cacher/afficher le moteur de recherche"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:165
+msgid "Select a filter"
+msgstr "Sélectionnez un filtre"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:166
+msgid "Add this filter"
+msgstr "Ajouter ce filtre"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:168
+msgid "Filter groups/users"
+msgstr "Filtre les groupes/utilisateur"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:169
+msgid "Filter name"
+msgstr "Filtrer le nom"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:170
+msgid "Filter skill/ability"
+msgstr "Filtrer la compétence"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:171
+msgid "Filter style"
+msgstr "Filtrer les styles musicaux"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:172
+msgid "Filter description"
+msgstr "Filtrer la description"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:173
+msgid "Filter full groups"
+msgstr "Filtrer les groupes complets"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:174
+msgid "Filter country"
+msgstr "Filtrer le pays"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:175
+msgid "Filter city"
+msgstr "Filtrer la ville"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:176
+msgid "Filter URL"
+msgstr "Filtrer l'URL"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:177
+msgid "Filter distance"
+msgstr "Filtrer la distance"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:178
+msgid "Filter label"
+msgstr "Filtrer le label"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:186
+msgid "Is a"
+msgstr "Est un"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:188
+msgid "user"
+msgstr "utilisateur"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:191
+msgid "looks like"
+msgstr "ressemble à"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:192
+msgid "doesn't look like"
+msgstr "ne ressemble pas à"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:194
+msgid "Contains"
+msgstr "Contient"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:195
+msgid "Doesn't contain"
+msgstr "Ne contient pas"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:196
+msgid "the skill/ability"
+msgstr "la compétence"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:198
+msgid "the musical style"
+msgstr "le style musical"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:200
+msgid "Description"
+msgstr "Description"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:202
+msgid "Is"
+msgstr "est"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:203
+msgid "Is not"
+msgstr "n'est pas"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:204
+msgid "full"
+msgstr "complet"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:206
+msgid "The country"
+msgstr "Le pays"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:208
+msgid "The URL"
+msgstr "L'URL"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:210
+msgid "The city"
+msgstr "La ville"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:212
+msgid "Is located at a distance"
+msgstr "Est situé à une distance"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:213
+msgid "less than or equal to"
+msgstr "inférieure ou égale a"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:214
+msgid "greater than"
+msgstr "plus grande que"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:215
+msgid "Km from the city"
+msgstr "Km de la ville"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:216
+msgid "wich zip code is (optionnal)"
+msgstr "dont le code postal est (optionnel)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:217
+msgid "in the country"
+msgstr "dans le pays"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:219
+msgid "the label"
+msgstr "le label"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\SearchController.php:220
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:113
+msgid "No label"
+msgstr "Pas de label"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:19
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:120
+msgid "Studio"
+msgstr "Studio"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:29
+msgid "Choose one of your group"
+msgstr "Choisissez un de vos groupes"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:30
+msgid "Sorry, you have no group!"
+msgstr "Désolé, vous n'avez aucun groupe !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:46
+#, php-format
+msgid "Studio :: %s"
+msgstr "Studio :: %s"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:50
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:158
+msgid "Help"
+msgstr "Aide"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:51
+msgid "Add a folder"
+msgstr "Ajouter un dossier"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:52
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:134
+msgid "Add a composition"
+msgstr "Ajouter une composition"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:53
+msgid "Delete this folder"
+msgstr "Supprimer ce dossier"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:54
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:137
+msgid "Public?"
+msgstr "Publique ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:55
+msgid "Edit folder name"
+msgstr "Modifier le nom du dossier"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:84
+msgid "Public"
+msgstr "Publique"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:85
+msgid "Your composition will be analyzed soon by the system, you will be able to publish it if the system validates it. If not, it will be deleted"
+msgstr "Votre composition va être analysée par le système d'ici peu de temps, vous serez alors capable de la publier si le système l'accepte. Sinon, elle sera supprimée"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:86
+msgid "Download original file"
+msgstr "Télécharger le fichier original"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:87
+msgid "Delete this composition"
+msgstr "Supprimer la composition"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:88
+msgid "Change composition folder"
+msgstr "Changer la composition de dossier"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:90
+msgid "Composition doesn't exist anymore"
+msgstr "La composition n'existe plus"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:93
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:95
+msgid "Not your composition"
+msgstr "Ce n'est pas votre composition"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:123
+#, php-format
+msgid "%s uploaded successfully!"
+msgstr "%s envoyé avec succès !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:131
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:163
+msgid "No file uploaded!"
+msgstr "Aucun fichier envoyé !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:136
+msgid "You're not in group"
+msgstr "Vous ne faites pas partie du groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:156
+#, php-format
+msgid "%s is too big, it must not exceed %s"
+msgstr "%s est trop gros, il ne doit pas dépasser %s"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:160
+#, php-format
+msgid "%s partially uploaded"
+msgstr "%s est partiellement envoyé"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:166
+msgid "Unauthorized file type!"
+msgstr "Type de fichier interdit !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\StudioController.php:171
+msgid "Server-side error, please <a href='mailto:contact@doonoyz.com'>contact us</a>"
+msgstr "Erreur du serveur, <a href='mailto:contact@doonoyz.com'>contactez nous</a>"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:59
+msgid "Comments"
+msgstr "Commentaires"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:60
+#, php-format
+msgid "(%s votes)"
+msgstr "(%s votes)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:115
+msgid "Go to Studio"
+msgstr "Aller au studio"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:118
+msgid "New style"
+msgstr "Nouveau style"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:119
+msgid "New label"
+msgstr "Nouveau label"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:120
+msgid "New contact"
+msgstr "Nouveau contact"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:122
+msgid "Location"
+msgstr "Lieu"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:123
+msgid "Country"
+msgstr "Pays"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:124
+msgid "Zip Code"
+msgstr "Code postal"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:126
+msgid "Contacts"
+msgstr "Contacts"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:127
+msgid "Languages"
+msgstr "Langues"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:128
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:105
+msgid "Delete"
+msgstr "Supprimer"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:129
+msgid "Report this blog"
+msgstr "Rapporter ce blog"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:130
+msgid "Report this content"
+msgstr "Rapporter ce contenu"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:131
+msgid "Add a skill/ability"
+msgstr "Ajouter une compétence"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:132
+msgid "Add a style"
+msgstr "Ajouter un style"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:133
+msgid "Add a contact"
+msgstr "Ajouter un contact"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:135
+msgid "Add a member"
+msgstr "Ajouter un membre"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:136
+msgid "Name of Compostion"
+msgstr "Nouvelle composition"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:138
+msgid "New photo"
+msgstr "Nouvelle photo"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:139
+msgid "New composition"
+msgstr "Nouvelle composition"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:142
+msgid "Bid for this group"
+msgstr "Postuler pour ce groupe"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:143
+msgid "Invite this user"
+msgstr "Inviter cet utilisateur"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:144
+msgid "Accept bid?"
+msgstr "Accepter les candidatures ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:146
+msgid "Compositions"
+msgstr "Compositions"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:147
+msgid "No composition for the moment!"
+msgstr "Aucune composition pour le moment !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:148
+#, php-format
+msgid "Follow %s's compositions"
+msgstr "Suivre les compositions de %s"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:242
+#, php-format
+msgid "You must certify that you're %s or older to see this group/file page"
+msgstr "Vous devez certifier que vous avez bien %s ans ou plus pour voir ce groupe/cette fiche"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:244
+msgid "Certify"
+msgstr "Certifier"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:255
+msgid "Not existing group/file"
+msgstr "Groupe/fiche non existant(e)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:258
+#, php-format
+msgid "The group/file \"%s\" doesn't exist, click the button below to create it!"
+msgstr "Le groupe/la fiche \"%s\" n'existe pas, cliquez sur le bouton ci-dessous pour le/la créer !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:259
+msgid "Get connected to create this group/file!"
+msgstr "Vous devez être connecté(e) pour créer ce groupe/cette fiche !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\application\modules\default\controllers\UserController.php:262
+msgid "Create this group/file!"
+msgstr "Créer ce groupe/cette fiche !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Admintask.php:188
+#, php-format
+msgid "The blog %s has been reported!"
+msgstr "Le blog %s a été rapporté !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Admintask.php:189
+#, php-format
+msgid "The composition %s has been reported!"
+msgstr "La composition %s a été rapportée !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Admintask.php:190
+#, php-format
+msgid "The skill/ability %s has been added!"
+msgstr "La compétence %s a été ajouté !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Admintask.php:191
+#, php-format
+msgid "The contact type %s has been added!"
+msgstr "Le type de contact %s a été ajouté !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Admintask.php:192
+#, php-format
+msgid "The musical style %s has been added!"
+msgstr "Le style musical %s a été ajouté !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Admintask.php:193
+#, php-format
+msgid "The label %s has been added!"
+msgstr "Le label %s a été ajouté !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:156
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:162
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:168
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:175
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:180
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:183
+#, php-format
+msgid "Bid for %s"
+msgstr "Postuler pour %s"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:156
+msgid "You have been accepted, welcome!"
+msgstr "Vous avez été accepté, bienvenue !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:162
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:175
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:180
+msgid "The group didn't make a choice between imparted time, please try again later..."
+msgstr "Le groupe n'a pas fait son choix dans le temps imparti, réessayez plus tard..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:168
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Bid.php:183
+msgid "The group refused you, sorry..."
+msgstr "Le groupe vous a refusé(e), désolé..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Group.php:637
+#, php-format
+msgid "(%s / %s on %s votes)"
+msgstr "(%s / %s sur %s votes)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:27
+msgid "Music"
+msgstr "Musique"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:27
+msgid "Picture"
+msgstr "Photo"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:27
+msgid "Text"
+msgstr "Texte"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:27
+msgid "Video"
+msgstr "Vidéo"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:45
+msgid "How do I modify my group information?"
+msgstr "Comment puis-je modifier les informations de mon groupe ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:46
+msgid "You just have to click on a criterion and you will be able to edit it! Then click OK to save your modification and Cancel to cancel."
+msgstr "Vous n'avez qu'à cliquer sur un critère et vous pourrez le modifier ! Cliquez ensuite sur OK pour sauvegarder la modification et sur Annuler pour annuler."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:48
+msgid "A skill/ability/style doesn't exist, how do I create it?"
+msgstr "Une compétence/un style n'existe pas, comment puis-je le créer ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:49
+msgid "Select \"New competence\" then add it, it's name will be asked and then will be validated by admin. If the admin judges that this competence already exists or another is preferred, it will be automaticaly replaced for you."
+msgstr "Choisissez \"Nouvelle compétence\" puis ajoutez-la, son nom vous sera alors demandé et sera validé par un administrateur. Si l'administrateur juge que la compétence existe déjà ou si une autre est préférée, il vous la remplacera automatiquement."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:51
+msgid "Why my group/file doesn't appear in the search engine or on the home page?"
+msgstr "Pourquoi mon groupe/ma fiche ne figure pas dans le moteur de recherche ou sur la page d'accueil ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:52
+msgid "To appear on the search engine or on the home page, you have to specify at least one skill AND one musical style. To do so, choose your skill/musical style and click the 'Add' link associed. A message will confirm your action."
+msgstr "Pour apparaître sur le moteur de recherche ou sur la page d'accueil, vous devez spécifier au moins une compétence ET un style musical. Pour ce faire, choisissez vos compétences / styles de musique et cliquez sur lien 'ajouter' associé. Un message vous confirmera votre action."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:54
+msgid "How do I upload a composition?"
+msgstr "Comment envoyer une composition ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:55
+msgid "First, you have to create a folder. This can be done with the \"Add a folder\" link. When the folder is created, go inside and click the \"Add a composition\" icon. Choose your file on your hard drive and send it."
+msgstr "D'abord, vous devez créer un dossier. Il peut être créé grâce au lien \"Ajouter un dossier\". Une fois créé, allez a l'intérieur et cliquez sur l'icône \"Ajouter une composition\". Choisissez votre fichier sur votre disque dur et envoyez-le."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:57
+msgid "Which composition formats are accepted?"
+msgstr "Quels sont les formats acceptés pour les compositions ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Help.php:58
+msgid "You can only upload these file type, then the system will analyze it and you will be able to edit it if everything is ok:"
+msgstr "Vous ne pouvez envoyer que ces types de fichiers, ensuite, le système l'analyse et vous pourrez l'éditer si tout est correct :"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Robot\Location.php:68
+msgid "Group Location not found"
+msgstr "Ville du groupe non trouvée"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Robot\Location.php:69
+#, php-format
+msgid "The location of your group \"%s\" (http://www.doonoyz.com/%s) was not found, please check its availability. If you think it's an error, please contact us at <a href='mailto:contact@doonoyz.com'>contact@doonoyz.com</a>"
+msgstr "La ville de votre groupe \"%s\" (http://www.doonoyz.com/%s) n'a pas été trouvée, vérifiez qu'elle est correcte. Si vous pensez que c'est une erreur, contactez nous à <a href='mailto:contact@doonoyz.com'>contact@doonoyz.com</a>"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\Search\Filter.php:98
+#, php-format
+msgid "Filter %s doesn't exist"
+msgstr "Le filtre %s n'existe pas"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:28
+msgid "Are you sure you want to DELETE all your messages?"
+msgstr "Êtes-vous sur de vouloir SUPPRIMER tous vos messages ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:29
+msgid "Are you sure you want to DELETE this message?"
+msgstr "Êtes-vous sur de vouloir SUPPRIMER ce message ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:30
+msgid "Are you sure you wish to disconnect?"
+msgstr "Êtes-vous sur de vouloir vous déconnecter ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:31
+msgid ""
+"Url already taken or not valid!\n"
+"Authorized characters: alphanumerical (a-z A-Z 0-9), underscore (_), dot (.) and hyphen (-)"
+msgstr ""
+"URL déjà prise ou non valide !\n"
+"Les caractères autorisés sont : alphanumériques (a-z A-Z 0-9), underscore (_), point (.) et tiret (-)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:32
+msgid "Created successfully, you can access your group to URL"
+msgstr "Créé avec succès, vous pouvez accéder à votre groupe à l'adresse "
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:33
+msgid "Your file must be in these file formats:"
+msgstr "Votre fichier doit faire partie des formats suivants :"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:34
+msgid "Your alert has been sent"
+msgstr "Votre alerte a été envoyée"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:35
+msgid "Your skill/ability has been added! (you have to refresh to see changes)"
+msgstr "Votre compétence a été ajoutée ! (rafraîchissez pour voir les changements)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:36
+msgid "Your skill/ability has been added and will be assigned as soon as validated by admin."
+msgstr "Votre compétence a été ajouté et vous sera attribué dès sa validation par un administrateur..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:37
+msgid "Your style has been added! (you have to refresh to see changes)"
+msgstr "Votre style a été ajouté ! (rafraîchissez pour voir les changements)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:38
+msgid "Your style has been added and will be assigned as soon as validated by admin."
+msgstr "Votre style a été ajouté et vous sera attribué dès sa validation par un administrateur..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:39
+msgid "New skill/ability name?"
+msgstr "Nom de la nouvelle compétence ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:40
+msgid "New label name?"
+msgstr "Nom du nouveau label ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:41
+msgid "New style name?"
+msgstr "Nom du nouveau style ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:42
+msgid "What is the address/pseudo of this contact type?"
+msgstr "Quelle est l'adresse/pseudo de ce type de contact ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:43
+msgid "Your contact has been added! (you have to refresh to see changes)"
+msgstr "Votre contact a été ajouté ! (vous devez rafraichir pour voir les modifications)"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:44
+msgid "Your label has been added!"
+msgstr "Votre label %s a été ajouté !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:45
+msgid "New contact type name?"
+msgstr "Nom du nouveau type de contact ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:46
+msgid "What is the address of this contact type ?"
+msgstr "Quelle est l'adresse de ce type de contact ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:47
+msgid "Your contact type has been added and will be assigned as soon as validated by admin."
+msgstr "Votre type de contact a été ajouté et vous sera attribué dès sa validation par un administrateur..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:48
+msgid "Your label has been added and will be assigned as soon as validated by admin."
+msgstr "Votre label a été ajouté et vous sera attribué dès sa validation par un administrateur..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:49
+msgid "New member mail or login?"
+msgstr "Login ou mail du nouveau membre ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:50
+msgid "Your comment has been added successfully!"
+msgstr "Votre commentaire a été pris en compte !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:51
+msgid "Are you sure you want to DELETE this composition?"
+msgstr "Êtes-vous sur de vouloir SUPPRIMER cette composition"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:52
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:53
+msgid "Deleted successfully!"
+msgstr "Supprimé avec succès !"
+
+# manque un ?
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:54
+msgid "Are you sure you want to DELETE this folder and ALL ITS CONTENT?"
+msgstr "Êtes-vous sur de vouloir SUPPRIMER ce dossier et TOUT SON CONTENU ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:55
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:57
+msgid "Published successfully!"
+msgstr "Publié avec succès !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:56
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:58
+msgid "Unpublished successfully!"
+msgstr "Dépublié avec succès !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:59
+msgid "Folder changed successfully!"
+msgstr "Changement de dossier avec succès !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:60
+msgid "Name of new folder?"
+msgstr "Nom du nouveau dossier ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:61
+msgid "Which new name for this folder?"
+msgstr "Quel est le nouveau nom pour ce dossier ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:62
+msgid "Your folder has been created successfully! refresh to see it."
+msgstr "Votre dossier a été créé avec succès ! rafraîchir pour le voir..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:63
+msgid "Your folder has been edited successfully! refresh to see the changes."
+msgstr "Votre dossier a été modifié avec succès ! rafraîchir pour voir la modification..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:64
+msgid "Your composition has been uploaded successfully! Refresh to see it."
+msgstr "Votre composition a été envoyée avec succès ! rafraîchir pour la voir..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:65
+msgid "Thanks for your vote"
+msgstr "Merci pour votre vote"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:66
+msgid "Click to edit..."
+msgstr "Cliquez pour éditer..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:68
+msgid "OK"
+msgstr "OK"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:69
+msgid "Are you sure you want to BLOCK this user for using Doonoyz services?"
+msgstr "Êtes-vous sur de vouloir BLOQUER cet utilisateur aux services Doonoyz ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:70
+msgid "The user has been blocked from using Doonoyz services"
+msgstr "L'utilisateur ne peut plus utiliser les services Doonoyz"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:71
+msgid "Are you sure you want to DELETE this task?"
+msgstr "Êtes-vous sur de vouloir SUPPRIMER cette tâche ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:72
+msgid "The task has been successfully deleted"
+msgstr "La tâche a été supprimée avec succès"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:73
+msgid "Are you sure you want to BLOCK this group?"
+msgstr "Êtes-vous sur de vouloir BLOQUER ce groupe ?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:74
+msgid "The group has been blocked."
+msgstr "Le groupe a été bloqué?"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:75
+msgid "The group has been actived."
+msgstr "Le groupe a été activé."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:76
+msgid "Direct link"
+msgstr "Lien direct"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:77
+msgid "Browse"
+msgstr "Parcourir"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:79
+msgid "Don't change interface while uploading!"
+msgstr "Ne changez pas d'interface pendant l'upload !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:80
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:124
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:81
+msgid "Don't forget to click the add link to validate your choice!"
+msgstr "N'oubliez pas de cliquer sur le lien ajouter pour valider votre choix !"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:94
+msgid "Very Poor"
+msgstr "Vraiment nase"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:95
+msgid "Poor"
+msgstr "Pas cool"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:96
+msgid "Not that Bad"
+msgstr "Pas trop mal"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:97
+msgid "Fair"
+msgstr "Mouais..."
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:98
+msgid "Average"
+msgstr "Moyen"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:99
+msgid "Almost Good"
+msgstr "Plutôt cool"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:100
+msgid "Good"
+msgstr "Cool"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:101
+msgid "Very Good"
+msgstr "Vraiment cool"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:102
+msgid "Excellent"
+msgstr "Excellent"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:103
+msgid "Perfect"
+msgstr "Parfait"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:104
+msgid "Anwser"
+msgstr "Répondre"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:110
+msgid "Report a bug or suggest an improvment!"
+msgstr "Rapporter un bug ou suggérer une amélioration"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:114
+msgid "Register an account"
+msgstr "Créer un compte"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:116
+msgid "New invitations"
+msgstr "Nouvelles invitations"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:117
+msgid "Disconnect"
+msgstr "Déconnexion"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:119
+msgid "Create a group/file"
+msgstr "Créer un groupe/une fiche"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:121
+msgid "New bid"
+msgstr "Nouvelle candidature"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:122
+msgid "Advanced Search"
+msgstr "Recherche avancée"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:125
+msgid "Language"
+msgstr "Langue"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:138
+msgid "Tasks"
+msgstr "Tâches"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:140
+msgid "Edit Component"
+msgstr "Modification de composant"
+
+#: C:\Documents
+#: and
+#: Settings\Administrateur\Bureau\Twinmusic\library\Twinmusic\View\Smarty.php:142
+msgid "Manage Home"
+msgstr "Gestion d'accueil"
+
+msgid "Andorra"
+msgstr "Andorre"
+
+msgid "United Arab Emirates"
+msgstr "Emirats Arabes Unis"
+
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+msgid "Antigua and Barbuda"
+msgstr "Antigua et Barbuda"
+
+msgid "Anguilla"
+msgstr "Anguilla"
+
+msgid "Albania"
+msgstr "Albanie"
+
+msgid "Armenia"
+msgstr "Arménie"
+
+msgid "Netherlands Antilles"
+msgstr "Antille Néerlandaises"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Antarctica"
+msgstr "Antarctique"
+
+msgid "Argentina"
+msgstr "Argentine"
+
+msgid "American Samoa"
+msgstr "Samoa américaines"
+
+msgid "Austria"
+msgstr "Autriche"
+
+msgid "Australia"
+msgstr "Australie"
+
+msgid "Aruba"
+msgstr "Aruba"
+
+msgid "Aland Islands"
+msgstr "Îles Åland"
+
+msgid "Azerbaijan"
+msgstr "Azerbaïdjan"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnie Herzégovine"
+
+msgid "Barbados"
+msgstr "Barbade"
+
+msgid "Belgium"
+msgstr "Belgique"
+
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgid "Bulgaria"
+msgstr "Bulgarie"
+
+msgid "Bahrain"
+msgstr "Bahreïn"
+
+msgid "Burundi"
+msgstr "Burundi"
+
+msgid "Benin"
+msgstr "Bénin"
+
+msgid "Saint Barthelemy"
+msgstr "Saint Barthélémy"
+
+msgid "Bermuda"
+msgstr "Bermudes"
+
+msgid "Brunei"
+msgstr "Brunéi Darussalam"
+
+msgid "Bolivia"
+msgstr "Bolivie"
+
+msgid "Brazil"
+msgstr "Brésil"
+
+msgid "Bahamas"
+msgstr "Bahamas"
+
+msgid "Bhutan"
+msgstr "Bhoutan"
+
+msgid "Bouvet Island"
+msgstr "Île Bouvet"
+
+msgid "Botswana"
+msgstr "Botswana"
+
+msgid "Belarus"
+msgstr "Bélarus"
+
+msgid "Canada"
+msgstr "Canada"
+
+msgid "Cocos Islands"
+msgstr "Iles Cocos"
+
+msgid "Democratic Republic of the Congo"
+msgstr "République Démocratique du Congo"
+
+msgid "Central African Republic"
+msgstr "République Centrafricaine du Congo"
+
+msgid "Republic of the Congo"
+msgstr "République du Congo"
+
+msgid "Switzerland"
+msgstr "Suisse"
+
+msgid "Ivory Coast"
+msgstr "Côte d'Ivoire"
+
+msgid "Cook Islands"
+msgstr "Îles Cook"
+
+msgid "Cameroon"
+msgstr "Cameroun"
+
+msgid "China"
+msgstr "Chine"
+
+msgid "Colombia"
+msgstr "Colombie"
+
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgid "Cuba"
+msgstr "Cuba"
+
+msgid "Cape Verde"
+msgstr "Cap Vert"
+
+msgid "Christmas Island"
+msgstr "Île Christmas"
+
+msgid "Cyprus"
+msgstr "Chypre"
+
+msgid "Czech Republic"
+msgstr "République Tchèque"
+
+msgid "Germany"
+msgstr "Allemagne"
+
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgid "Denmark"
+msgstr "Danemark"
+
+msgid "Dominica"
+msgstr "Dominique"
+
+msgid "Dominican Republic"
+msgstr "République Dominicaine"
+
+msgid "Algeria"
+msgstr "Algérie"
+
+msgid "Ecuador"
+msgstr "Équateur"
+
+msgid "Egypt"
+msgstr "Egypte"
+
+msgid "Western Sahara"
+msgstr "Sahara occidental"
+
+msgid "Eritrea"
+msgstr "Erythrée"
+
+msgid "Spain"
+msgstr "Espagne"
+
+msgid "Ethiopia"
+msgstr "Ethiopie"
+
+msgid "Finland"
+msgstr "Finlande"
+
+msgid "Fiji"
+msgstr "Fiji"
+
+msgid "Falkland Islands"
+msgstr "Îles Malouines"
+
+msgid "Micronesia"
+msgstr "Micronésie"
+
+msgid "Faroe Islands"
+msgstr "Îles Féroé"
+
+msgid "Gabon"
+msgstr "Gabon"
+
+msgid "United Kingdom"
+msgstr "Royaume Uni"
+
+msgid "Grenada"
+msgstr "Grenades"
+
+msgid "Georgia"
+msgstr "Géorgie"
+
+msgid "French Guiana"
+msgstr "Guinée Française"
+
+msgid "Guernsey"
+msgstr "Guernesey"
+
+msgid "Ghana"
+msgstr "Ghana"
+
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+msgid "Greenland"
+msgstr "Groënland"
+
+msgid "Gambia"
+msgstr "Gambie"
+
+msgid "Guinea"
+msgstr "Guinée"
+
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+msgid "Equatorial Guinea"
+msgstr "Guinée Equatoriale"
+
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Géorgie du Sud et Sud des Iles Sandwich"
+
+msgid "Guatemala"
+msgstr "Guatémala"
+
+msgid "Guam"
+msgstr "Guam"
+
+msgid "Guinea-Bissau"
+msgstr "Guinée-Bissau"
+
+msgid "Guyana"
+msgstr "Guyane"
+
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgid "Heard Island and McDonald Islands"
+msgstr "Îles Heard et MacDonald"
+
+msgid "Honduras"
+msgstr "Honduras"
+
+msgid "Haiti"
+msgstr "Haiti"
+
+msgid "Hungary"
+msgstr "Hongrie"
+
+msgid "Ireland"
+msgstr "Irlande"
+
+msgid "Isle of Man"
+msgstr "Île de Man"
+
+msgid "India"
+msgstr "Inde"
+
+msgid "British Indian Ocean Territory"
+msgstr "Territoire britannique de l'océan Indien"
+
+msgid "Iraq"
+msgstr "Iraq"
+
+msgid "Iran"
+msgstr "Iran"
+
+msgid "Iceland"
+msgstr "Islande"
+
+msgid "Italy"
+msgstr "Italie"
+
+msgid "Jersey"
+msgstr "Jersey"
+
+msgid "Jamaica"
+msgstr "Jamaiïque"
+
+msgid "Jordan"
+msgstr "Jordanie"
+
+msgid "Japan"
+msgstr "Japon"
+
+msgid "Kenya"
+msgstr "Kenya"
+
+msgid "Kyrgyzstan"
+msgstr "Kirghizistan"
+
+msgid "Cambodia"
+msgstr "Cambodge"
+
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts et Nevis"
+
+msgid "North Korea"
+msgstr "Corée du Nord"
+
+msgid "South Korea"
+msgstr "Corée du Sud"
+
+msgid "Kuwait"
+msgstr "Koweït"
+
+msgid "Cayman Islands"
+msgstr "Îles Caïmans"
+
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+msgid "Lebanon"
+msgstr "Liban"
+
+msgid "Saint Lucia"
+msgstr "Sainte-Lucie"
+
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgid "Liberia"
+msgstr "Libéria"
+
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgid "Lithuania"
+msgstr "Lithuanie"
+
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgid "Latvia"
+msgstr "Lettonie"
+
+msgid "Libya"
+msgstr "Libye"
+
+msgid "Morocco"
+msgstr "Maroc"
+
+msgid "Monaco"
+msgstr "Monaco"
+
+msgid "Moldova"
+msgstr "Moldovie"
+
+msgid "Montenegro"
+msgstr "Monténégro"
+
+msgid "Saint Martin"
+msgstr "Saint Martin"
+
+msgid "Madagascar"
+msgstr "Madagascar"
+
+msgid "Marshall Islands"
+msgstr "Iles Marshall"
+
+msgid "Macedonia"
+msgstr "Macédoine"
+
+msgid "Mali"
+msgstr "Mali"
+
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgid "Mongolia"
+msgstr "Mongolie"
+
+msgid "Macao"
+msgstr "Macao"
+
+msgid "Northern Mariana Islands"
+msgstr "Nord des Iles Marina"
+
+msgid "Martinique"
+msgstr "Martinique"
+
+msgid "Mauritania"
+msgstr "Mauritanie"
+
+msgid "Montserrat"
+msgstr "Montserrat"
+
+msgid "Malta"
+msgstr "Malte"
+
+msgid "Maldives"
+msgstr "Maldives"
+
+msgid "Malawi"
+msgstr "Malawi"
+
+msgid "Mexico"
+msgstr "Mexique"
+
+msgid "Malaysia"
+msgstr "Malaisie"
+
+msgid "Mozambique"
+msgstr "Mozambique"
+
+msgid "Namibia"
+msgstr "Namibie"
+
+msgid "New Caledonia"
+msgstr "Nouvelle Calédonie"
+
+msgid "Niger"
+msgstr "Niger"
+
+msgid "Norfolk Island"
+msgstr "Iles Norfolk"
+
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgid "Netherlands"
+msgstr "Pays Bas"
+
+msgid "Norway"
+msgstr "Norvège"
+
+msgid "Nepal"
+msgstr "Népal"
+
+msgid "Nauru"
+msgstr "Nauru"
+
+msgid "Niue"
+msgstr "Niue"
+
+msgid "Oman"
+msgstr "Oman"
+
+msgid "Panama"
+msgstr "Panama"
+
+msgid "French Polynesia"
+msgstr "Polynésie Française"
+
+msgid "Papua New Guinea"
+msgstr "Papouasie Nouvelle Guinée"
+
+msgid "Philippines"
+msgstr "Philippines"
+
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgid "Poland"
+msgstr "Pologne"
+
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre et Miquelon"
+
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+msgid "Puerto Rico"
+msgstr "Porrto Rico"
+
+msgid "Palestinian Territory"
+msgstr "Territoitre Palestinien"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Palau"
+msgstr "Palaos"
+
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgid "Qatar"
+msgstr "Qatar"
+
+msgid "Reunion"
+msgstr "Réunion"
+
+msgid "Romania"
+msgstr "Ruomanie"
+
+msgid "Serbia"
+msgstr "Serbie"
+
+msgid "Russia"
+msgstr "Russie"
+
+msgid "Rwanda"
+msgstr "Rwanda"
+
+msgid "Saudi Arabia"
+msgstr "Arabie Saoudite"
+
+msgid "Solomon Islands"
+msgstr "Îles Salomon"
+
+msgid "Seychelles"
+msgstr "Seychelles"
+
+msgid "Sudan"
+msgstr "Soudan"
+
+msgid "Singapore"
+msgstr "Singapour"
+
+msgid "Saint Helena"
+msgstr "Saint Hélène"
+
+msgid "Slovenia"
+msgstr "Slovénie"
+
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard et Île Jan Mayen"
+
+msgid "Slovakia"
+msgstr "Slovaquie"
+
+msgid "Sierra Leone"
+msgstr "Sierra Léone"
+
+msgid "San Marino"
+msgstr "Saint-Marin"
+
+msgid "Senegal"
+msgstr "Sénégal"
+
+msgid "Somalia"
+msgstr "Somalie"
+
+msgid "Sao Tome and Principe"
+msgstr "São Tomé et Príncipe"
+
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgid "Syria"
+msgstr "Syrie"
+
+msgid "Swaziland"
+msgstr "Swaziland"
+
+msgid "Turks and Caicos Islands"
+msgstr "Îles Turks et Caïques"
+
+msgid "Chad"
+msgstr "Tchad"
+
+msgid "French Southern Territories"
+msgstr "Terres australes françaises"
+
+msgid "Thailand"
+msgstr "Thailand"
+
+msgid "Tajikistan"
+msgstr "Tadjikistan"
+
+msgid "Tokelau"
+msgstr "Tokelau"
+
+msgid "East Timor"
+msgstr "Timor oriental"
+
+msgid "Turkmenistan"
+msgstr "Turkménistan"
+
+msgid "Tunisia"
+msgstr "Tunisie"
+
+msgid "Tonga"
+msgstr "Tonga"
+
+msgid "Turkey"
+msgstr "turquie"
+
+msgid "Trinidad and Tobago"
+msgstr "Trinidad et Tobago"
+
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgid "Tanzania"
+msgstr "Tanzanie"
+
+msgid "Ukraine"
+msgstr "Ukraine"
+
+msgid "United States Minor Outlying Islands"
+msgstr "Îles Mineures Éloignées des États-Unis"
+
+msgid "United States"
+msgstr "Etats Unis"
+
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgid "Uzbekistan"
+msgstr "Ouzbékistan"
+
+msgid "Vatican"
+msgstr "Vatican"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent et les Grenadines"
+
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgid "British Virgin Islands"
+msgstr "Îles Vierges britanniques"
+
+msgid "U.S. Virgin Islands"
+msgstr "Îles Vierges des États-Unis"
+
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgid "Wallis and Futuna"
+msgstr "Wallis et Futuna"
+
+msgid "Samoa"
+msgstr "Samoa"
+
+msgid "Yemen"
+msgstr "Yémen"
+
+msgid "Mayotte"
+msgstr "Mayotte"
+
+msgid "South Africa"
+msgstr "Afrique du Sud"
+
+msgid "Zambia"
+msgstr "Zambie"
+
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgid "Serbia and Montenegro"
+msgstr "Serbie et Monténégro"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesh"
+#~ msgid "Belize"
+#~ msgstr "Belize"
+#~ msgid "Chile"
+#~ msgstr "Chili"
+#~ msgid "France"
+#~ msgstr "France"
+#~ msgid "Croatia"
+#~ msgstr "Croatie"
+#~ msgid "Indonesia"
+#~ msgstr "Indonésie"
+#~ msgid "Israel"
+#~ msgstr "Israël"
+#~ msgid "Comoros"
+#~ msgstr " Comores"
+#~ msgid "Laos"
+#~ msgstr "Laos"
+#~ msgid "New Zealand"
+#~ msgstr "Nouvelle Zélande"
+#~ msgid "Peru"
+#~ msgstr "Pérou"
+#~ msgid "Sweden"
+#~ msgstr "Suède"
+#~ msgid "Suriname"
+#~ msgstr "Suriname"
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
